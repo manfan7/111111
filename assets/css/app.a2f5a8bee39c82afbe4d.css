@@ -2019,6 +2019,13 @@ footer .wrapper .column.cont .hidden:last-of-type {
 	header .row:first-of-type ul.c li a {
 		display: none;
 	}
+	 .relheader h1 {
+	font-size: calc(2vw + 2vh + 2vmin);	 
+	 }      
+	.relheader {
+		margin-left: 0;
+	}
+	
 }
 @media (max-width: 920px) {
 	.whyus-section {
