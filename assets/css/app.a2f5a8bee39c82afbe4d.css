@@ -1910,7 +1910,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
 	}
 
         .whyus__item-content--left{
-        flex-wrap: wrap;
+        
          }
 }
 @media (max-width: 1670px) {
@@ -1950,6 +1950,21 @@ footer .wrapper .column.cont .hidden:last-of-type {
         .portfolio__header h3 {
          font-size: calc(1vh + 16vmin);
         }
+}
+@media (max-width: 1483px) {
+     .item-center {
+	     flex: 2;
+     }  
+	
+}
+@media (max-width: 1315px) {
+     .bonusmarginr {
+	     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+     }  
+	
 }
 @media (max-width: 990px) {
 	header {
