@@ -635,7 +635,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 	align-items: center;
 	margin-top: 13%;
 	margin-left: 12px;
-	min-height: 259px;
+	min-height: 280px;
 }
 .how_much .wrapper section .block .block__header-icons ul {
 	display: flex;
@@ -1602,7 +1602,7 @@ footer .wrapper {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	g
-	color: #fff;
+	color: white;
 	font-size: 14px;
 }
 footer .wrapper .y {
@@ -1904,6 +1904,16 @@ footer .wrapper .column.cont .hidden:last-of-type {
 		padding-top: 10px;
 	}
 }
+
+@media (max-width: 1800px) {
+	.whyus__item-content--left .content-descr h4 {
+		font-size: calc(1vw + 1vmin);
+	}
+
+        .whyus__item-content--left{
+        flex-wrap: wrap;
+         }
+}
 @media (max-width: 1670px) {
 	.header-swiper .swiper {
 		width: 100%;
@@ -1927,10 +1937,10 @@ footer .wrapper .column.cont .hidden:last-of-type {
         margin-right: 14px;
         }
         .whyus__item-content--left .content-descr h4 {
-        font-size: calc(1vh + 2vmin);
+        font-size: calc(1vh + 1vmin);
         }
         .tab-content .tab-content-content li {
-         font-size: calc(1vh + 2vmin);
+         font-size: calc(1vh + 1vmin);
          }
         .portfolio__header-wrapper {
         width: 65%;
@@ -2055,6 +2065,12 @@ footer .wrapper .column.cont .hidden:last-of-type {
 	.how_much .wrapper section .block {
 		width: 47%;
 	}
+       .how_much .wrapper section .block .block__header-price h2 {
+       font-size: 70px;
+       }
+       .how_much .wrapper section .block .block__header-price span {
+       font-size: 2rem;
+       }
 }
 @media (max-width: 1056px) {
 	.how_much .wrapper section .block {
@@ -2193,6 +2209,8 @@ footer .wrapper .column.cont .hidden:last-of-type {
 		width: 100%;
 	}
 }
+
+
 @media (max-width: 1430px) {
 	.employees .wrapper section .block {
 		display: -webkit-box;
