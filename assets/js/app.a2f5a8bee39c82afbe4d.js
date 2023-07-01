@@ -213,7 +213,24 @@
 						innerWidth <= 950 && (n = 2),
 						innerWidth <= 630 && (n = 1),
 						new Swiper(e, {
-							slidesPerView: n,
+                                                         breakpoints: {
+							1650: {
+								spaceBetween: 20,
+								slidesPerView: 4,
+							},
+							1230: {
+								spaceBetween: 20,
+								slidesPerView: 3,
+							},
+							950: {
+								spaceBetween: 10,
+								slidesPerView: 2,
+							},
+							0: {
+								spaceBetween: 5,
+								slidesPerView: 1,
+							}, 
+							
 							spaceBetween: 30,
 							navigation: { nextEl: ".test-next", prevEl: ".test-prev" },
 						});
