@@ -1958,13 +1958,27 @@ footer .wrapper .column.cont .hidden:last-of-type {
 	
 }
 @media (max-width: 1315px) {
-     .bonusmarginr {
+     .bonusmargin {
 	     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
      }  
-	
+     .whyus__item-content--left .content-descr {
+	     width: 75%;
+    margin-left: 10px;
+    text-align: center;
+     }
+     .whyus__item-content--left {
+	     flex-direction: column;
+     }
+	.content-img {
+		padding-left: 0;
+	}
+	.whyus__item-content--left .content-descr {
+		margin-left: 0;
+		width: 89%;
+	}
 }
 @media (max-width: 990px) {
 	header {
