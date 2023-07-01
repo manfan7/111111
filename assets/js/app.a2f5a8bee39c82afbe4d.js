@@ -227,7 +227,8 @@
 							0: {
 								spaceBetween: 5,
 								slidesPerView: 1,
-							}, 
+},							
+}, 
 							
 							spaceBetween: 30,
 							navigation: { nextEl: ".test-next", prevEl: ".test-prev" },
