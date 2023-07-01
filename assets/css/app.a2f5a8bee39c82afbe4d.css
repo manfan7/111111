@@ -2040,6 +2040,12 @@ footer .wrapper .column.cont .hidden:last-of-type {
 	.callback:before {
 		display: none;
 	}
+	.tab-content .tab-content-content li {
+	    font-size: calc(1vh + 3vmin);
+	}
+	.certified h2 {
+	margin-left: 0;
+	}
 }
 @media (max-width: 770px) {
 	.header-swiper .swiper {
