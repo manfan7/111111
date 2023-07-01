@@ -209,9 +209,7 @@
 				},
 				init_test: function (e) {
 					var n = 4;
-					innerWidth <= 1230 && (n = 3),
-						innerWidth <= 950 && (n = 2),
-						innerWidth <= 630 && (n = 1),
+					
 						new Swiper(e, {
                                                          breakpoints: {
 							1650: {
