@@ -2529,6 +2529,12 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .how_much .wrapper section .block .block__header {
     margin-left: 0;
   }
+  .tab-content .tab-content-header h3 {
+    font-size: 27px;
+    text-align: center;
+  }
+  .margin {
+    margin: 0;
 }
 @media (max-width: 393px) {
   header .row:first-of-type a.logo img {
