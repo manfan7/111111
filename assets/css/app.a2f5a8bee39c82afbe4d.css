@@ -386,7 +386,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 }
 .header-swiper .swiper-wrapper .swiper-slide .img .role {
   position: absolute;
-  bottom: 1rem;
+  bottom: 3rem;
   left: -41px;
 }
 @media (max-width: 930px) {
@@ -400,7 +400,6 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 }
 .header-swiper .swiper-wrapper .swiper-slide .img .role span.name {
   color: #f3bc28;
-  margin-bottom: 10px;
 }
 .dsc__h1-class {
   padding-top: 25px;
@@ -2909,4 +2908,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
   header {
     height: 60px;
   }
+}
+.disabled-scroll {
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
 }
