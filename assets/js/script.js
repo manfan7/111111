@@ -115,3 +115,23 @@ sh.forEach((item) =>
     item.nextElementSibling.classList.remove("hide");
   })
 );
+let but = document.querySelectorAll(".Modalopen");
+const closebtn = document.querySelector(".closebtn");
+let modal = document.querySelector(".modal-backdrop");
+
+but.forEach((item) =>
+  item.addEventListener("click", function () {
+    modal.classList.remove("hide");
+    document.body.classList.add("disabled-scroll");
+  })
+);
+closebtn.addEventListener("click", () => {
+  modal.classList.add("hide");
+  document.body.classList.remove("disabled-scroll");
+});
+modal.addEventListener("click", (event) => {
+  if (event.target === modal) {
+    modal.classList.add("hide");
+    document.body.classList.remove("disabled-scroll");
+  }
+});
