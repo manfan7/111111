@@ -376,7 +376,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 .header-swiper .swiper-wrapper .swiper-slide .dsc h2 {
   font-weight: 400;
   color: #f3bc28;
-  line-height: 70%;
+  line-height: 100%;
   /*font-size: calc(1vw + 2vh + 1vmin);*/
   font-size: 40px;
 }
@@ -590,7 +590,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   justify-content: center;
 }
 .testimonials .wrapper .test-swiper .swiper-slide .video iframe {
-  min-height: 18.6vw;
+  min-height: 13.6vw;
 }
 .testimonials .wrapper .test-swiper .swiper-slide .video img.ph {
   width: 100%;
@@ -1559,27 +1559,33 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   font-size: 24px;
   text-transform: inherit;
 }
-.callback .wrapper form {
+.callback .wrapper form,
+.modal-wrapper form {
   width: 630px;
 }
-.callback .wrapper form h3 {
+.callback .wrapper form h3,
+.modal-wrapper form {
   color: #fff;
   font-size: 36px;
   margin-top: 15px;
 }
-.callback .wrapper form > label {
+.callback .wrapper form > label,
+.modal-wrapper form > label {
   display: block;
 }
-.callback .wrapper form > label:nth-of-type(2) {
+.callback .wrapper form > label:nth-of-type(2),
+.modal-wrapper form > label:nth-last-of-type(2) {
   margin: 1rem 0 1rem 0;
 }
-.callback .wrapper form > label span {
+.callback .wrapper form > label span,
+.modal-wrapper form > label span {
   display: block;
   color: #fff;
   font-size: 14px;
   margin-bottom: 10px;
 }
-.callback .wrapper form > label input {
+.callback .wrapper form > label input,
+.modal-wrapper form > label input {
   width: 100%;
   height: 38px;
   border-radius: 50px;
@@ -1588,18 +1594,22 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   padding-left: 1rem;
   font-size: 1rem;
 }
-.callback .wrapper form > label textarea {
+.callback .wrapper form > label textarea,
+.modal-wrapper form > label textarea {
   width: 100%;
   height: 84px;
   border-radius: 20px;
 }
-.callback .wrapper form .agree {
+.callback .wrapper form .agree,
+.modal-wrapper form .agree {
   margin-top: 1rem;
 }
-.callback .wrapper form .agree span {
+.callback .wrapper form .agree span,
+.modal-wrapper form .agree span {
   display: inline;
 }
-.callback .wrapper form .agree label {
+.callback .wrapper form .agree label,
+.modal-wrapper form .agree label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1608,11 +1618,18 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   align-items: center;
   margin-bottom: 1rem;
 }
-.callback .wrapper form .agree label input[type="checkbox"] {
+.callback .wrapper form .agree label input[type="checkbox"],
+.modal-wrapper .agree label input[type="checkbox"] {
   display: none;
 }
 .callback
   .wrapper
+  form
+  .agree
+  label
+  input[type="checkbox"]:checked
+  ~ .checkmark:after,
+.modal-wrapper
   form
   .agree
   label
@@ -1623,7 +1640,8 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   top: 1px;
   left: 2px;
 }
-.callback .wrapper form .agree label .checkmark {
+.callback .wrapper form .agree label .checkmark,
+.modal-wrapper form .agree label .checkmark {
   border: 1px solid #fff;
   border-radius: 7px;
   width: 24px;
@@ -1635,20 +1653,25 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   position: relative;
   cursor: pointer;
 }
-.callback .wrapper form .agree label .checkmark:hover {
+.callback .wrapper form .agree label .checkmark:hover,
+.modal-wrapper form .agree label .checkmark:hover {
   background-color: #2f2154;
 }
-.callback .wrapper form .agree label .checkmark + span {
+.callback .wrapper form .agree label .checkmark + span,
+.modal-wrapper form .agree label .checkmark + span {
   color: #fff;
 }
-.callback .wrapper form .agree label .checkmark + span a {
+.callback .wrapper form .agree label .checkmark + span a,
+.modal-wrapper form .agree label .checkmark + span a {
   color: #fff;
   text-decoration: underline;
 }
-.callback .wrapper form .agree label .checkmark + span a:hover {
+.callback .wrapper form .agree label .checkmark + span a:hover,
+.modal-wrapper form .agree label .checkmark + span a:hover {
   text-decoration: none;
 }
-.callback .wrapper form .agree input[type="submit"] {
+.callback .wrapper form .agree input[type="submit"],
+.modal-wrapper form .agree input[type="submit"] {
   display: block;
   border-radius: 30px;
   background: -webkit-gradient(
@@ -1667,7 +1690,8 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   outline: none;
   border: none;
 }
-.callback .wrapper form .agree input[type="submit"]:hover {
+.callback .wrapper form .agree input[type="submit"]:hover,
+.modal-wrapper form .agree input[type="submit"]:hover {
   background: -webkit-gradient(
     linear,
     left top,
@@ -1677,6 +1701,34 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   );
   background: -o-linear-gradient(top, #f1ca2d, #be7a11);
   background: linear-gradient(180deg, #f1ca2d, #be7a11);
+}
+.modal-wrapper {
+  width: 300px;
+  height: 488px;
+  background-image: linear-gradient(#56295a 100%, #5c6bc0 100%);
+}
+.modal-wrapper .helpme {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-wrapper .helpme h3 {
+  font-size: 20px;
+}
+.modal-wrapper .helpme label {
+  width: 85%;
+}
+.modal-wrapper form > label span {
+  margin-bottom: -6px;
+}
+.modal-wrapper form .agree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-wrapper form .agree label span {
+  font-size: 12px;
 }
 footer {
   background-color: #56295a;
@@ -2022,7 +2074,6 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .header-swiper .swiper-wrapper .swiper-slide .dsc h2 {
     font-size: calc(1vh + 3vmin);
-    line-height: 120%;
   }
   header .row,
   header .row:first-of-type {
@@ -2081,7 +2132,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
 
 @media (max-width: 990px) {
   header {
-    height: 80px;
+    height: 63px;
   }
   header .row:first-of-type:after {
     content: "";
@@ -2100,7 +2151,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     display: none;
   }
   .testimonials .wrapper .test-swiper .swiper-slide .video iframe {
-    height: 28vw !important;
+    height: 27.6vw;
   }
   .more dl {
     padding: 0 20px;
@@ -2277,6 +2328,12 @@ footer .wrapper .column.cont .hidden:last-of-type {
     padding-top: 0;
   }
 }
+@media (max-width: 1650px) {
+  .testimonials .wrapper .test-swiper .swiper-slide .video iframe {
+    min-height: 18.6vw;
+  }
+}
+
 @media (max-width: 880px) {
   .testimonials .wrapper .arrows {
     top: 2.5rem;
@@ -2292,7 +2349,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     padding: 1rem;
   }
   .testimonials .wrapper .test-swiper .swiper-slide .video iframe {
-    height: 18.6vw;
+    min-height: 27.6vw;
   }
   .employees .wrapper section {
     -ms-flex-wrap: wrap;
@@ -2301,6 +2358,11 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .employees .wrapper section .block {
     width: auto;
+  }
+}
+@media (max-width: 949px) {
+  .testimonials .wrapper .test-swiper .swiper-slide .video iframe {
+    min-height: 55vw;
   }
 }
 @media (max-width: 630px) {
@@ -2512,6 +2574,23 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 100%;
   }
 }
+
+@media (max-width: 1440px) {
+  footer .wrapper {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1420px) {
+  .header-swiper .swiper-wrapper .swiper-slide .img {
+    left: -35px;
+  }
+}
+@media (max-width: 1369px) {
+  .header-swiper .swiper-wrapper .swiper-slide .img {
+    left: -76px;
+  }
+}
 @media (max-width: 1280px) {
   .callback .wrapper .cta span.h2 {
     font-size: calc(1vh + 4vw + 1vmin);
@@ -2539,21 +2618,11 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .portfolio__header-wrapper {
     width: 79%;
   }
-}
-@media (max-width: 1440px) {
-  footer .wrapper {
-    width: 100%;
-    padding: 0 20px;
+  .dsc__h1-class {
+    margin-bottom: 7px;
   }
-}
-@media (min-width: 1280px) and (max-width: 1420px) {
-  .header-swiper .swiper-wrapper .swiper-slide .img {
-    left: -35px;
-  }
-}
-@media (max-width: 1369px) {
-  .header-swiper .swiper-wrapper .swiper-slide .img {
-    left: -40px;
+  .dsc__button-class {
+    padding-top: 10px;
   }
 }
 @media (max-width: 1270px) {
@@ -2564,9 +2633,40 @@ footer .wrapper .column.cont .hidden:last-of-type {
     grid-gap: 10px;
   }
 }
+@media (max-width: 1201px) {
+  .header-swiper .swiper-wrapper .swiper-slide .img {
+    left: 2px;
+  }
+}
 @media (max-width: 1130px) {
   .callback .wrapper .cta span.h2 {
     font-size: calc(1vh + 1vw + 3vmin);
+  }
+  .callback::before {
+    left: 36%;
+  }
+}
+@media (min-width: 921px) and (max-width: 1088px) {
+  .header-swiper .swiper-wrapper .swiper-slide .dsc span.h1 {
+    font-size: calc(2vw + 2vh + 1vmin);
+  }
+  .header-swiper .swiper-wrapper .swiper-slide .dsc h2 {
+    font-size: calc(1vh + 2vmin);
+  }
+}
+@media (max-width: 1024px) {
+  .header-swiper .swiper-wrapper .swiper-slide .img {
+    left: 4px;
+  }
+  .callback::before {
+    left: 36%;
+  }
+}
+@media (max-width: 912px) {
+  .portfolio__header-wrapper {
+    width: 100%;
+    gap: 9%;
+    justify-content: space-between;
   }
 }
 @media (max-width: 820px) {
@@ -2585,6 +2685,11 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 83%;
   }
 }
+@media (max-width: 750px) {
+  .dsc__h1-class {
+    margin-bottom: 5px;
+  }
+}
 @media (max-width: 540px) {
   .testimonials .wrapper .arrows {
     top: 6.8rem;
@@ -2592,7 +2697,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
 }
 @media (max-width: 540px) {
   header {
-    height: 75px;
+    height: 53px;
   }
   header .row:first-of-type a.logo img {
     width: 192px;
@@ -2602,6 +2707,11 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .header-swiper .swiper-wrapper .swiper-slide .img {
     left: 4px;
+  }
+}
+@media (max-width: 500px) {
+  .portfolio__header-wrapper {
+    gap: 0px;
   }
 }
 @media (max-width: 414px) {
