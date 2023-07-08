@@ -1705,7 +1705,29 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 .modal-wrapper {
   width: 300px;
   height: 488px;
-  background-image: linear-gradient(#56295a 100%, #5c6bc0 100%);
+  background: rgb(86, 41, 90);
+  background: linear-gradient(
+    90deg,
+    rgba(86, 41, 90, 1) 0%,
+    rgba(92, 107, 192, 1) 100%
+  );
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  z-index: 100;
+}
+
+.closebtn {
+  content: "";
+  position: absolute;
+  background-image: url(../img/modal/Vector.png);
+  top: 10px;
+  right: 10px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
 }
 .modal-wrapper .helpme {
   width: 100%;
@@ -1715,6 +1737,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 }
 .modal-wrapper .helpme h3 {
   font-size: 20px;
+  margin-top: 20px;
 }
 .modal-wrapper .helpme label {
   width: 85%;
@@ -1729,6 +1752,15 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 }
 .modal-wrapper form .agree label span {
   font-size: 12px;
+}
+.modal-wrapper
+  form
+  .agree
+  label
+  input[type="checkbox"]:checked
+  ~ .checkmark:after {
+  top: -22px;
+  left: 4px;
 }
 footer {
   background-color: #56295a;
@@ -2682,7 +2714,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     top: 2px;
   }
   .header-swiper .swiper-wrapper .swiper-slide .img {
-    width: 83%;
+    width: 65%;
   }
 }
 @media (max-width: 750px) {
