@@ -108,3 +108,10 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+let sh = document.querySelectorAll(".showMesasage");
+sh.forEach((item) =>
+  item.addEventListener("click", function () {
+    item.classList.add("hide");
+    item.nextElementSibling.classList.remove("hide");
+  })
+);
