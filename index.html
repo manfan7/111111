@@ -33,8 +33,9 @@
 						/></a>
 						<ul class="c">
 							<li class="visible showMesasage">
-								<img src="./assets/img/icons/phone.svg" /><a
-									href=""
+								<img src="./assets/img/icons/phone.svg" />
+								<a
+									href="#"
 									>+375 Показать номер</a
 								>
 							</li>
@@ -46,7 +47,7 @@
 							</li>
 							<li class="visible showMesasage">
 								<img src="./assets/img/icons/envelope.svg" /><a
-									href=""
+									href="#"
 									>Показать e-mail</a
 								>
 								
@@ -1207,31 +1208,42 @@
 				<h3>Будем рады помочь</h3>
 				<label
 					><span>Ваше имя</span>
-					<input type="text" name="name" required />
+					<input type="text" placeholder="Ведите имя" name="name" class="_req" required />
 				</label>
 				<label
 					><span>Телефон</span>
-					<input type="text" name="phone" required />
+					<input type="text" placeholder="Ведите телефон" name="phone" class="_req" required />
 				</label>
 				<label
 					><span>Адрес сайта</span>
-					<input type="text" name="site" required />
+					<input type="text" placeholder="Ведите адрес сайта" name="site" class="_req" required />
 				</label>
 				<div class="agree">
 					<label>
-						<input type="checkbox" checked />
+						<input type="checkbox" class="_req" checked />
 						<div class="checkmark"></div>
 						<span
 							>Нажимая кнопку отправить заявку, даю согласие на обработку
 							<a href="#">персональных данных*</a></span
 						>
 					</label>
-					<input type="submit" value="Отправить заявку" />
+					<input type="submit" value="Отправить заявку" id="helpme"/>
 				</div>
 			</form>
 		 </div>
 	 </div>
-	 
+	 <div class="modal-wrapper thanks hide">
+		<div class="closebtn"></div>
+		<div class="thanks-wrapper ">
+			<span class="thanks-header hh">
+				Спасибо!
+			</span>
+			<span class="thanks-footer hh">
+				Мы скоро с Вами свяжемся
+			</span>
+		</div>
+	
+	 </div>
 	 
 		<script
 		type="text/javascript"
