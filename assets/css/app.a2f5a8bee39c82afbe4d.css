@@ -389,11 +389,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   bottom: 3rem;
   left: -41px;
 }
-@media (max-width: 930px) {
-  .header-swiper .swiper-wrapper .swiper-slide .img .role {
-    left: -76px;
-  }
-}
+
 .header-swiper .swiper-wrapper .swiper-slide .img .role span {
   display: block;
   font-size: 20px;
@@ -2294,7 +2290,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
 }
 @media (max-width: 768px) {
   .header-swiper .swiper-wrapper .swiper-slide .img .role {
-    left: -2rem;
+    left: -3rem;
   }
   .header-swiper .swiper-wrapper .swiper-slide .img .role span {
     font-size: 12px;
@@ -2691,6 +2687,14 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .callback::before {
     left: 36%;
+  }
+  .header-swiper .swiper-wrapper .swiper-slide .img .role {
+    left: -62px;
+  }
+}
+@media (max-width: 930px) {
+  .header-swiper .swiper-wrapper .swiper-slide .img .role {
+    left: -76px;
   }
 }
 @media (max-width: 912px) {
