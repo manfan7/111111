@@ -2029,7 +2029,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 96%;
   }
   .how_much .wrapper section {
-    gap: 20px;
+    gap: 3px;
   }
 }
 
@@ -2313,14 +2313,25 @@ margin-left: 0px;
   }
 }
 @media (max-width: 1625px) {
-  .how_much .wrapper section .block {
-    width: 47%;
-  }
+  
   .how_much .wrapper section .block .block__header-price h2 {
     font-size: 70px;
   }
   .how_much .wrapper section .block .block__header-price span {
     font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1356px)  and (max-width: 1625px) {
+  .how_much .wrapper section .block p.type {
+  font-size: 32px;
+  } 
+  .how_much .wrapper section .block .block__header-icons ul {
+  gap: 8px;
+  }
+}
+@media (max-width: 1356px) {
+  .how_much .wrapper section .block {
+    width: 47%;
   }
 }
 @media (max-width: 920px) {
