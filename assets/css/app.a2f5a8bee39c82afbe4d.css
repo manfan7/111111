@@ -1283,6 +1283,14 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   margin-top: 5rem;
   padding-bottom: 79px;
 }
+.clients .wrapper img {
+  filter: grayscale(1);
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.clients .wrapper img:hover {
+  filter: grayscale(0);
+}
 .clients .wrapper h2 {
   font-size: calc(2vw + 2vh + 2vmin);
   color: #f3bc28;
