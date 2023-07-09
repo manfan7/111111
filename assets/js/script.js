@@ -116,22 +116,66 @@ sh.forEach((item) =>
   })
 );
 let but = document.querySelectorAll(".Modalopen");
-const closebtn = document.querySelector(".closebtn");
+const closebtn = document.querySelectorAll(".closebtn");
 let modal = document.querySelector(".modal-backdrop");
-
+let form = document.querySelector(".helpme");
+let thanksForm = document.querySelector(".thanks");
+let req = document.querySelectorAll("._req");
 but.forEach((item) =>
   item.addEventListener("click", function () {
     modal.classList.remove("hide");
     document.body.classList.add("disabled-scroll");
+    req.forEach((item) => (item.value = ""));
   })
 );
-closebtn.addEventListener("click", () => {
-  modal.classList.add("hide");
-  document.body.classList.remove("disabled-scroll");
-});
+closebtn.forEach((item) =>
+  item.addEventListener("click", () => {
+    modal.classList.add("hide");
+    thanksForm.classList.add("hide");
+    thanksForm.classList.remove("animated");
+    document.body.classList.remove("disabled-scroll");
+  })
+);
 modal.addEventListener("click", (event) => {
   if (event.target === modal) {
     modal.classList.add("hide");
     document.body.classList.remove("disabled-scroll");
   }
 });
+form.addEventListener("submit", formsend);
+async function formsend(e) {
+  e.preventDefault();
+
+  let error = formValidate(form);
+  //let formData = new FormData(form);
+  if (error === 0) {
+    modal.classList.add("hide");
+    setTimeout(() => {
+      thanksForm.classList.add("animated");
+    }, 200);
+
+    /*let response = await fetch("/", {
+      method: "POST",
+      body: formData,
+    });
+    if (response.ok) {
+      thanksForm.classList.add("animated");
+    }*/
+  }
+}
+function formValidate(e) {
+  let error = 0;
+  let req = document.querySelectorAll("._req");
+  //req.forEach((item) => item.classList.remove("wrong"));
+  for (let i = 0; i < req.length; i++) {
+    if (
+      req[i].getAttribute("type") === "checkbox" &&
+      req[i].checked === false
+    ) {
+      req[i].classList.add("wrong");
+      error++;
+    }
+  }
+
+  return error;
+}
