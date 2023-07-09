@@ -1277,6 +1277,25 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 .certified .wave {
   background-color: #fff;
   margin-top: -5vh;
+  position: relative;
+}
+.certified .wave::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  bottom: -1px;
+  left: 0;
+  background-color: white;
+}
+.certified .wave::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  top: -8px;
+  left: 0;
+  background-color: #56295a;
 }
 .clients .wrapper {
   text-align: center;
@@ -1711,7 +1730,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   height: 488px;
   background: rgb(86, 41, 90);
   background: linear-gradient(
-    90deg,
+    35deg,
     rgba(86, 41, 90, 1) 0%,
     rgba(92, 107, 192, 1) 100%
   );
@@ -1722,7 +1741,41 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   border-radius: 20px;
   z-index: 100;
 }
-
+.thanks {
+  width: 300px;
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+.thanks.animated {
+  opacity: 1;
+  visibility: visible;
+}
+.thanks-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.thanks-header {
+  font-size: 20px;
+  font-weight: 700;
+}
+.thanks-footer {
+  font-size: 14px;
+  font-weight: 400;
+}
+.hh {
+  color: white;
+  flex: 1;
+  text-align: center;
+}
 .closebtn {
   content: "";
   position: absolute;
@@ -1746,6 +1799,17 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 .modal-wrapper .helpme label {
   width: 85%;
 }
+.modal-wrapper form > label input:invalid {
+  border: 1px solid #f1502d;
+}
+.modal-wrapper form > label input::-webkit-input-placeholder {
+  color: #cbcbcb;
+  font-size: 14px;
+}
+.modal-wrapper form > label input:-moz-placeholder {
+  color: #cbcbcb;
+  font-size: 14px;
+}
 .modal-wrapper form > label span {
   margin-bottom: -6px;
 }
@@ -1765,6 +1829,9 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   ~ .checkmark:after {
   top: -22px;
   left: 4px;
+}
+.wrong {
+  border: 1px solid #f1502d;
 }
 footer {
   background-color: #56295a;
@@ -2096,7 +2163,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .whyus__item-content--left {
   }
   .how_much .wrapper section .block .block__header {
-margin-left: 0px;
+    margin-left: 0px;
   }
 }
 @media (max-width: 1670px) {
@@ -2313,7 +2380,6 @@ margin-left: 0px;
   }
 }
 @media (max-width: 1625px) {
-  
   .how_much .wrapper section .block .block__header-price h2 {
     font-size: 70px;
   }
@@ -2321,12 +2387,12 @@ margin-left: 0px;
     font-size: 1rem;
   }
 }
-@media screen and (min-width: 1356px)  and (max-width: 1625px) {
+@media screen and (min-width: 1356px) and (max-width: 1625px) {
   .how_much .wrapper section .block p.type {
-  font-size: 32px;
-  } 
+    font-size: 32px;
+  }
   .how_much .wrapper section .block .block__header-icons ul {
-  gap: 8px;
+    gap: 8px;
   }
   .how_much .wrapper section {
     gap: 3px;
@@ -2469,10 +2535,10 @@ margin-left: 0px;
     font-size: 1rem;
   }
 }
-@media screen and (min-width: 768px)  and (max-width: 1100px) {
-    .how_much .wrapper section .block p.type {
-      font-size: 2.6rem
-    }
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .how_much .wrapper section .block p.type {
+    font-size: 2.6rem;
+  }
 }
 @media (max-width: 690px) {
   .term {
@@ -2703,7 +2769,7 @@ margin-left: 0px;
     left: 36%;
   }
 }
-@media (min-width: 921px) and (max-width: 1088px) {
+@media (min-width: 921px) and (max-width: 1280px) {
   .header-swiper .swiper-wrapper .swiper-slide .dsc span.h1 {
     font-size: calc(2vw + 2vh + 1vmin);
   }
@@ -2852,17 +2918,17 @@ margin-left: 0px;
   .how_much .wrapper section .block .block__header {
     margin-left: 0;
   }
-  
+
   .header-swiper .swiper-wrapper .swiper-slide .img {
-  bottom: 0rem;
+    bottom: 0rem;
     left: -2rem;
   }
   .showMesasage {
-  margin-left: 0px;
+    margin-left: 0px;
     margin-right: 7px;
   }
   .modal-wrapper {
-  width: 260px;
+    width: 260px;
   }
   .how_much .wrapper section .block .block__main-title .main-title-text {
     font-size: 15px;
@@ -2952,7 +3018,7 @@ margin-left: 0px;
     top: 4px;
     right: -82px;
   }
-  
+
   .header-swiper .swiper-wrapper .swiper-slide .img .role {
     left: -1rem;
     bottom: 1rem;
