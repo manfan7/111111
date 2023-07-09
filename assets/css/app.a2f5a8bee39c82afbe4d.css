@@ -2818,6 +2818,20 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .how_much .wrapper section .block .block__header {
     margin-left: 0;
   }
+  .header-swiper .swiper-wrapper .swiper-slide .img {
+  left: -45px;
+  }
+  .header-swiper .swiper-wrapper .swiper-slide .img {
+  bottom: 1rem;
+    left: -1rem;
+  }
+  .showMesasage {
+  margin-left: 0px;
+    margin-right: 7px;
+  }
+  .modal-wrapper {
+  width: 260px;
+  }
   .how_much .wrapper section .block .block__main-title .main-title-text {
     font-size: 15px;
   }
