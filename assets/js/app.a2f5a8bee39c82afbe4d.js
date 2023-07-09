@@ -269,7 +269,7 @@
 				init_clients: function (e, n) {
 					new Swiper(e, {
 						breakpoints: {
-							1110: {
+							1325: {
 								spaceBetween: 30,
 								slidesPerView: 5,
 							},
