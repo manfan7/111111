@@ -1331,8 +1331,9 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
   cursor: pointer;
+  filter: grayscale(0);
 }
-@media (min-width: 1110px) {
+@media (min-width: 1325px) {
   .clients .wrapper div[class*="clients"] .arrows img {
     -webkit-transition: opacity 0.3s ease;
     -o-transition: opacity 0.3s ease;
