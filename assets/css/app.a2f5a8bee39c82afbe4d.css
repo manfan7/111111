@@ -2718,6 +2718,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .header-swiper .swiper-wrapper .swiper-slide .img {
     width: 65%;
+    margin-bottom: -3px;
   }
 }
 @media (max-width: 750px) {
@@ -2823,8 +2824,8 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   
   .header-swiper .swiper-wrapper .swiper-slide .img {
-  bottom: 1rem;
-    left: -3rem;
+  bottom: 0rem;
+    left: -2rem;
   }
   .showMesasage {
   margin-left: 0px;
@@ -2923,8 +2924,8 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   
   .header-swiper .swiper-wrapper .swiper-slide .img .role {
-    left: 0rem;
-    bottom: 0px;
+    left: -1rem;
+    bottom: 1rem;
   }
   header {
     height: 50px;
