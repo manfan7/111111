@@ -2029,7 +2029,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 96%;
   }
   .how_much .wrapper section {
-    gap: 3px;
+    gap: 20px;
   }
 }
 
@@ -2327,6 +2327,9 @@ margin-left: 0px;
   } 
   .how_much .wrapper section .block .block__header-icons ul {
   gap: 8px;
+  }
+  .how_much .wrapper section {
+    gap: 3px;
   }
 }
 @media (max-width: 1356px) {
