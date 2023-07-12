@@ -116,11 +116,14 @@ sh.forEach((item) =>
   })
 );
 let but = document.querySelectorAll(".Modalopen");
+let but1 = document.querySelectorAll(".modalOpen1");
 const closebtn = document.querySelectorAll(".closebtn");
 let modal = document.querySelector(".modal-backdrop");
+let modal1 = document.querySelector(".modal-backdrop1");
 let form = document.querySelector(".helpme");
 let thanksForm = document.querySelector(".thanks");
 let req = document.querySelectorAll("._req");
+
 but.forEach((item) =>
   item.addEventListener("click", function () {
     modal.classList.remove("hide");
@@ -128,9 +131,17 @@ but.forEach((item) =>
     req.forEach((item) => (item.value = ""));
   })
 );
+but1.forEach((item) =>
+  item.addEventListener("click", function () {
+    modal1.classList.remove("hide");
+    document.body.classList.add("disabled-scroll");
+    req.forEach((item) => (item.value = ""));
+  })
+);
 closebtn.forEach((item) =>
   item.addEventListener("click", () => {
     modal.classList.add("hide");
+    modal1.classList.add("hide");
     thanksForm.classList.add("hide");
     thanksForm.classList.remove("animated");
     document.body.classList.remove("disabled-scroll");
@@ -139,6 +150,12 @@ closebtn.forEach((item) =>
 modal.addEventListener("click", (event) => {
   if (event.target === modal) {
     modal.classList.add("hide");
+    document.body.classList.remove("disabled-scroll");
+  }
+});
+modal1.addEventListener("click", (event) => {
+  if (event.target === modal1) {
+    modal1.classList.add("hide");
     document.body.classList.remove("disabled-scroll");
   }
 });
@@ -165,14 +182,13 @@ async function formsend(e) {
 }
 function formValidate(e) {
   let error = 0;
-  let req = document.querySelectorAll("._req");
+
   //req.forEach((item) => item.classList.remove("wrong"));
   for (let i = 0; i < req.length; i++) {
     if (
       req[i].getAttribute("type") === "checkbox" &&
       req[i].checked === false
     ) {
-      req[i].classList.add("wrong");
       error++;
     }
   }
