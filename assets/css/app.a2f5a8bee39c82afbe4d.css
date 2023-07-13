@@ -424,6 +424,9 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   font-size: calc(2vh + 2vw + 1vmin);
   color: #f3bc28;
 }
+.oo {
+  color: white;
+}
 .cases h2,
 .cases h3 {
   text-transform: uppercase;
@@ -496,6 +499,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   color: #f3bc28;
   margin: 0;
   text-transform: uppercase;
+  font-weight: 700;
 }
 .testimonials .wrapper > h3 {
   font-size: calc(2vw + 2vh + 1vmin);
@@ -624,7 +628,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   color: #f3bc28;
   text-transform: uppercase;
   margin: 0 0 3rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0px;
 }
 .how_much .wrapper .header h3 {
@@ -1150,7 +1154,8 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: -2px;
-  font-weight: 600;
+  font-weight: 700;
+  font-weight: 700;
 }
 .employees .wrapper section {
   display: -webkit-box;
@@ -1254,7 +1259,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   margin: 0;
   color: #fff;
   margin-left: 76px;
-  font-weight: 600;
+  font-weight: 700;
   /*letter-spacing: -2px;*/
 }
 .certified h2 span {
@@ -1317,7 +1322,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   color: #f3bc28;
   text-transform: uppercase;
 
-  font-weight: 600;
+  font-weight: 700;
 }
 .clients .wrapper .swiper-wrapper {
   -webkit-box-align: center;
@@ -1423,7 +1428,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 .relheader h1 {
   color: #f3bc28;
   font-size: 70px;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
 }
