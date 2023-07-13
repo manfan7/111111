@@ -3137,6 +3137,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
 @media (max-width: 540px) {
   .testimonials .wrapper .arrows {
     top: 7.3rem;
+    right: 0.3rem;
   }
   header {
     height: 53px;
@@ -3381,15 +3382,14 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 80%;
   }
   .testimonials .wrapper .test-swiper .swiper-slide .header {
-    
-    margin-top: 9%;
+       margin-top: 13%;
   }
   .testimonials .wrapper .test-swiper .swiper-slide .header .dsc span.name {
     font-size: 19px;
   }
   .testimonials .wrapper .test-swiper .swiper-slide .header .dsc span.role {
     font-size: 19px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
   }
 }
 @media (max-width: 393px) {
