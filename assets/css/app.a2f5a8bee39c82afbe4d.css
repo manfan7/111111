@@ -2892,7 +2892,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-top: 5vh;
   }
   .relheader h1 {
-    font-size: calc(2vw + 0.8vh + 1vmin);;
+    font-size: calc(2vw + 0.8vh + 1vmin);
   }
   .pay {
     display: none;
