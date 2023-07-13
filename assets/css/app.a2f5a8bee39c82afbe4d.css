@@ -3222,12 +3222,12 @@ footer .wrapper .column.cont .hidden:last-of-type {
     font-size: 28px;
   }
   .employees .wrapper h2 {
-    font-size: calc(2vw + 0.5vh + 3vmin);
+    font-size: calc(2vw + 2.5vh + 2vmin);
     /* font-size: 28px; */
     text-align: start;
-    width: 55%;
+    width: 95%;
     font-weight: 700;
-    line-height: 33px;
+    line-height: 48px;
   }
   .wave {
     display: none;
@@ -3417,6 +3417,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   header .row:first-of-type ul.c {
     z-index: 3;
+    margin-right: 11px;
   }
   .logo {
     margin-right: -15px;
@@ -3539,13 +3540,13 @@ footer .wrapper .column.cont .hidden:last-of-type {
     position: absolute;
     margin-right: 0;
     top: 18px;
-    right: 10px;
+    right: 22px;
   }
   .pay {
     transform: scale(0.8);
   }
   .testimonials .wrapper .arrows {
-    top: 83px;
+    top: 93px;
   }
   header .row:first-of-type img.burger {
     width: 34px;
@@ -3556,13 +3557,24 @@ footer .wrapper .column.cont .hidden:last-of-type {
   header .row:first-of-type ul.c {
     margin-right: 44px;
   }
+  .testimonials .wrapper > h3 {
+  font-size: 22px;
+  }
+  .testimonials .wrapper .test-swiper .swiper-slide .header .dsc span.role {
+        font-size: 10px;
+  }
+  .testimonials .wrapper .test-swiper .swiper-slide .header .dsc span.name {
+    font-size: 16px;
+  }
   .header-swiper .swiper-wrapper .swiper-slide .img img {
     width: 70%;
     position: relative;
     top: 4px;
     right: -82px;
   }
-
+.clients .wrapper div[class*="clients"] .arrows img {
+    width: 90px;
+}
   .header-swiper .swiper-wrapper .swiper-slide .img .role {
     left: -1rem;
     bottom: 1rem;
