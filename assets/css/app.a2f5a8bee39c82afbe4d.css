@@ -2135,7 +2135,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 96%;
   }
   .how_much .wrapper section {
-    gap: 20px;
+    gap: 36px;
   }
 }
 
@@ -2291,7 +2291,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
 
 @media (max-width: 990px) {
   header {
-    height: 63px;
+    height: 69px;
   }
   header .row:first-of-type:after {
     content: "";
@@ -2361,6 +2361,12 @@ footer .wrapper .column.cont .hidden:last-of-type {
 @media (max-width: 912px) {
   .certified .logos {
     margin: 55px auto 55px;
+  }
+  header .row:first-of-type .lang {
+    margin-right: 32px;
+  }
+  header .row:first-of-type ul.c {
+  margin-right: 19px;
   }
 }
 @media (max-width: 750px) {
@@ -2735,6 +2741,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .portfolio__header h3 {
     font-size: calc(1vh + 12vmin);
+    font-weight: 600;
   }
   .swiper-button-prev {
     left: -1px !important;
@@ -2744,6 +2751,12 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .testimonials .wrapper > .dsc {
     width: 77%;
+  }
+  .testimonials .wrapper > h3 {
+    font-size: calc(2vw + 1vh + 1vmin);
+  }
+  .testimonials .wrapper > h2 {
+    font-size: calc(2vw + 0.8vh + 1vmin);
   }
   .how_much .wrapper .header h2,
   .whyus .wrapper .header h2,
