@@ -3220,7 +3220,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 95%;
   }
   .employees .wrapper {
-    padding: 50px 7px;
+    padding: 30px 7px;
   }
   .employees .wrapper h2 {
     font-size: 28px;
@@ -3301,6 +3301,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .callback .wrapper .cta span.h2 {
     font-size: calc(1vh + 1vw + 6.3vmin);
+  }
+  .employees .wrapper section {
+  margin-top: 14px;
   }
   footer {
     padding-top: 2rem;
@@ -3397,7 +3400,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     align-items: center;
   }
   .oo {
-   color: white;
+   color: white!important;
     font-size: 32px;
     font-weight: 700; 
   }
@@ -3458,6 +3461,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .portfolio__header-wrapper {
     gap: 12%;
+  }
+  .testimonials .wrapper .test-swiper .swiper-slide .header .dsc span.role {
+    font-size: 15px;
   }
 }
 @media (max-width: 320px) {
