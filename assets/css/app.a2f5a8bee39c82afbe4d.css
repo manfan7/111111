@@ -3336,6 +3336,15 @@ footer .wrapper .column.cont .hidden:last-of-type {
 @media (max-width: 414px) {
   .portfolio__header-wrapper {
     gap: 20px;
+   align-items: center;
+    justify-content: center;
+    width: 85%;
+  }
+  .portfolio .wrapper {
+    padding: 19px 10px 27px 10px;
+  }
+  .portfolio__header {
+    min-height: 16vh;
   }
   .portfolio__header h3 {
     margin-right: 0px;
