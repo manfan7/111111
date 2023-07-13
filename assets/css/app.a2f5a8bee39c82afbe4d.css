@@ -1155,7 +1155,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   text-align: center;
   letter-spacing: -2px;
   font-weight: 700;
-   width: 92%;
+   width: 66%;
   margin: 0 auto;
 }
 .employees .wrapper section {
@@ -2246,7 +2246,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     font-weight: 600;
   }
   .portfolio__header-wrapper {
-    width: 65%;
+    width: 68%;
   }
   .portfolio__header span {
     font-size: calc(1vh + 1.8vmin);
@@ -2866,7 +2866,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-top: 5vh;
   }
   .relheader h1 {
-    font-size: calc(2vw + 2.5vh + 2vmin);
+    font-size: calc(2vw + 0.8vh + 1vmin);;
   }
   .pay {
     display: none;
