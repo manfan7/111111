@@ -2168,7 +2168,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     top: 35px;
   }
 }
-@media (min-width: 1484px) and (max-width: 1520px) {
+@media (min-width: 1484px) and (max-width: 1540px) {
   header a {
     font-size: 16px;
   }
