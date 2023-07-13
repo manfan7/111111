@@ -2704,6 +2704,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
     font-size: 16px;
     margin: 5px 0;
   }
+  .portfolio__footer {
+    margin-left: 0px;
+  }
   .how_much .wrapper section .block .block__header {
     min-height: 168px;
     margin-top: 10%;
@@ -2857,7 +2860,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-top: 5vh;
   }
   .relheader h1 {
-    font-size: 32px;
+    font-size: calc(2vw + 2.5vh + 2vmin);
   }
   .pay {
     display: none;
@@ -3226,7 +3229,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     /* font-size: 28px; */
     text-align: start;
     width: 95%;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 48px;
   }
   .wave {
