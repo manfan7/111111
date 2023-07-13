@@ -3391,6 +3391,16 @@ footer .wrapper .column.cont .hidden:last-of-type {
     font-size: 19px;
     letter-spacing: 2px;
   }
+  .o {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .oo {
+   color: white;
+    font-size: 32px;
+    font-weight: 700; 
+  }
 }
 @media (max-width: 393px) {
   header .row:first-of-type a.logo img {
@@ -3413,7 +3423,10 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .testimonials .wrapper .arrows {
     top: 5.9rem;
-    top: 97px;
+    top: 109px;
+  }
+  .testimonials .wrapper .test-swiper .swiper-slide .header .dsc span.role {
+  font-size: 16px;
   }
   .how_much .wrapper section .block .block__header-icons {
     width: 97%;
