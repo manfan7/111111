@@ -3278,7 +3278,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .certified {
     background: linear-gradient(-90deg, #5c6bc0 16%, #5a1d45 190%);
-    padding-bottom: 20px;
+    padding-bottom: 75px;
     position: relative;
   }
   .certified::after {
