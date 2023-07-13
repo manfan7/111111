@@ -425,7 +425,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   color: #f3bc28;
 }
 .oo {
-  color: white;
+  color: white!important;
 }
 .cases h2,
 .cases h3 {
