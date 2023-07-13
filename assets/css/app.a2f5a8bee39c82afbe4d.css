@@ -1071,9 +1071,9 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 .item-right {
   flex: 1;
 }
-.right {
+/*.right {
   padding-top: 7.5%;
-}
+}*/
 .right .content-img {
   padding-left: 26px;
 }
@@ -3540,7 +3540,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
 }
 .me {
   margin-left: 2px !important;
+   padding-top: 0;
 }
 .me1 {
   left: 227px !important;
+ 
 }
