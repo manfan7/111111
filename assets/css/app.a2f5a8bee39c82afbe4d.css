@@ -1155,7 +1155,8 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   text-align: center;
   letter-spacing: -2px;
   font-weight: 700;
-  font-weight: 700;
+   width: 92%;
+  margin: 0 auto;
 }
 .employees .wrapper section {
   display: -webkit-box;
@@ -2140,7 +2141,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 96%;
   }
   .how_much .wrapper section {
-    gap: 36px;
+    gap: 20px;
   }
 }
 
@@ -3235,7 +3236,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     /* font-size: 28px; */
     text-align: start;
     width: 95%;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 48px;
   }
   .wave {
