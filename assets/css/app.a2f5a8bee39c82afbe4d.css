@@ -425,7 +425,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   color: #f3bc28;
 }
 .oo {
-  color: white!important;
+  color: white !important;
 }
 .cases h2,
 .cases h3 {
@@ -1155,7 +1155,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   text-align: center;
   letter-spacing: -2px;
   font-weight: 700;
-   width: 66%;
+  width: 66%;
   margin: 0 auto;
 }
 .employees .wrapper section {
@@ -2372,7 +2372,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-right: 32px;
   }
   header .row:first-of-type ul.c {
-  margin-right: 19px;
+    margin-right: 19px;
   }
 }
 @media (max-width: 750px) {
@@ -2740,8 +2740,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .callback .wrapper,
   .how_much .wrapper,
-  .testimonials .wrapper
-   {
+  .testimonials .wrapper {
     padding: 50px 10px 60px 10px;
   }
   .portfolio .wrapper {
@@ -2785,10 +2784,10 @@ footer .wrapper .column.cont .hidden:last-of-type {
     font-size: calc(2vw + 0.8vh + 1vmin);
   }
   .employees .wrapper {
-  padding: 60px 0px;
+    padding: 60px 0px;
   }
   .employees .wrapper h2 {
-  width: 50%;
+    width: 50%;
   }
   .how_much .wrapper .header h3 {
     font-size: calc(1vw + 1vh + 1vmin);
@@ -2844,10 +2843,10 @@ footer .wrapper .column.cont .hidden:last-of-type {
     font-size: calc(2vw + 0.5vh + 1vmin);
   }
   .employees .wrapper {
-      padding: 50px 0px;
+    padding: 50px 0px;
   }
   .employees .wrapper section {
-  margin-top: 50px;
+    margin-top: 50px;
   }
   .employees .wrapper h2 {
     font-size: calc(2vw + 0.5vh + 1vmin);
@@ -3177,6 +3176,12 @@ footer .wrapper .column.cont .hidden:last-of-type {
   header {
     height: 53px;
   }
+  body {
+    background-color: #28062c;
+  }
+  .header-swiper {
+    background-color: #28062c;
+  }
   .header-swiper .swiper-wrapper .swiper-slide .dsc > * {
     padding-left: 0px;
   }
@@ -3197,7 +3202,8 @@ footer .wrapper .column.cont .hidden:last-of-type {
     font-size: 19px;
   }
   .whyusmobile .wrapper .header h2 {
-  margin-bottom: 27px;
+    margin-bottom: 27px;
+    width: 57%;
   }
   .how_much .wrapper .header h2,
   .whyus .wrapper .header h2,
@@ -3225,13 +3231,14 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 98%;
   }
   .testimonials .wrapper > .dsc p {
-  font-size: 17px;
+    font-size: 17px;
   }
   .relheader h1 {
     text-align: start;
     font-size: calc(2vw + 1.8vh + 1vmin);
-}
-  
+    letter-spacing: 2px;
+  }
+
   .whyus__item-content--left .content-descr h4 {
     font-size: 16px;
     margin-bottom: 0px;
@@ -3268,10 +3275,18 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .employees .wrapper h2 {
     font-size: calc(2vw + 2.5vh + 1vmin);
     /* font-size: 28px; */
-    text-align: start;
-    width: 95%;
+    text-align: left;
+    width: 86%;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 33px;
+    margin: 0;
+  }
+  .employees .wrapper section .block figure img {
+    width: 70%;
+  }
+  .callback .wrapper form .agree label,
+  .modal-wrapper form .agree label {
+    width: 67%;
   }
   .wave {
     display: none;
@@ -3336,6 +3351,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .relatedquestions .wrapper {
     width: 95%;
   }
+  .testimonials .wrapper {
+    padding: 50px 10px 30px 10px;
+  }
   .callback .wrapper .cta span.h3 {
     font-size: calc(1vh + 1vw + 4vmin);
   }
@@ -3343,7 +3361,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     font-size: calc(1vh + 1vw + 6.3vmin);
   }
   .employees .wrapper section {
-  margin-top: 14px;
+    margin-top: 14px;
   }
   footer {
     padding-top: 2rem;
@@ -3398,7 +3416,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
 @media (max-width: 414px) {
   .portfolio__header-wrapper {
     gap: 20px;
-   align-items: center;
+    align-items: center;
     justify-content: center;
     width: 85%;
   }
@@ -3425,7 +3443,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 80%;
   }
   .testimonials .wrapper .test-swiper .swiper-slide .header {
-       margin-top: 13%;
+    margin-top: 13%;
   }
   .testimonials .wrapper .test-swiper .swiper-slide .header .dsc span.name {
     font-size: 19px;
@@ -3434,15 +3452,22 @@ footer .wrapper .column.cont .hidden:last-of-type {
     font-size: 19px;
     letter-spacing: 2px;
   }
+  .callback .wrapper form .agree label,
+  .modal-wrapper form .agree label {
+    width: 85%;
+  }
   .o {
-        display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
   .oo {
-   color: white!important;
+    color: white !important;
     font-size: 32px;
-    font-weight: 700; 
+    font-weight: 700;
+  }
+  .employees .wrapper section .block figure img {
+    width: 59%;
   }
 }
 @media (max-width: 393px) {
@@ -3451,6 +3476,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .header-swiper {
     margin-top: -2px;
+  }
+  .whyusmobile .wrapper .header h2 {
+    width: 66%;
   }
 }
 @media (max-width: 375px) {
@@ -3469,7 +3497,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     top: 109px;
   }
   .testimonials .wrapper .test-swiper .swiper-slide .header .dsc span.role {
-  font-size: 16px;
+    font-size: 16px;
   }
   .how_much .wrapper section .block .block__header-icons {
     width: 97%;
@@ -3497,16 +3525,22 @@ footer .wrapper .column.cont .hidden:last-of-type {
     top: 11px;
   }
   .employees .wrapper h2 {
-  width: 98%;
+    width: 98%;
   }
   .tab-content .tab-content-header h3 {
     font-size: 30px;
+  }
+  .whyusmobile .wrapper .header h2 {
+    width: 84%;
   }
   .portfolio__header-wrapper {
     gap: 12%;
   }
   .testimonials .wrapper .test-swiper .swiper-slide .header .dsc span.role {
     font-size: 15px;
+  }
+  .whyusmobile .wrapper .header .header-border {
+    width: 86%;
   }
 }
 @media (max-width: 320px) {
@@ -3623,10 +3657,10 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-right: 44px;
   }
   .testimonials .wrapper > h3 {
-  font-size: 22px;
+    font-size: 22px;
   }
   .testimonials .wrapper .test-swiper .swiper-slide .header .dsc span.role {
-        font-size: 10px;
+    font-size: 10px;
   }
   .testimonials .wrapper .test-swiper .swiper-slide .header .dsc span.name {
     font-size: 16px;
@@ -3637,9 +3671,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
     top: 4px;
     right: -82px;
   }
-.clients .wrapper div[class*="clients"] .arrows img {
+  .clients .wrapper div[class*="clients"] .arrows img {
     width: 90px;
-}
+  }
   .header-swiper .swiper-wrapper .swiper-slide .img .role {
     left: -1rem;
     bottom: 1rem;
@@ -3658,11 +3692,11 @@ footer .wrapper .column.cont .hidden:last-of-type {
 }
 .me {
   margin-left: 2px !important;
-   padding-top: 0;
+  padding-top: 0;
 }
 .me1 {
   left: 227px !important;
- }
+}
 .l {
   margin-left: 10px;
 }
