@@ -2848,6 +2848,15 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .employees .wrapper section {
     margin-top: 50px;
   }
+  .employees .wrapper section .block figure img {
+    width: 63%;
+  }
+  .employees .wrapper section .block .role {
+    padding-bottom: 0px;
+  }
+  .employees .wrapper section .block .role span {
+    padding: 0.8rem 0;
+  }
   .employees .wrapper h2 {
     font-size: calc(2vw + 0.5vh + 1vmin);
     width: 50%;
@@ -2925,6 +2934,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   footer .wrapper .column .wt {
     font-size: 14px;
+  }
+  .employees .wrapper section .block figure figcaption {
+    left: 1rem;
   }
 }
 @media (max-width: 768px) {
