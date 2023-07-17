@@ -2739,6 +2739,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .how_much .wrapper section .block {
   width: 48%;
+    margin-bottom: 3%;
   }
   .how_much .wrapper section .block .block__main-descr {
     margin-bottom: 6%;
@@ -2749,7 +2750,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .how_much .wrapper section .block .block__header-price span {
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .how_much .wrapper section .block .block__header-price {
     margin-left: -5px;
@@ -2760,11 +2761,13 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .how_much .wrapper section .block .block__header-price:after {
     content: '';
     position: absolute;
-    bottom: 2px;
+ bottom: 1px;
     width: 100%;
+    left: 0;
     height: 1.5px;
-    background-color: linear-gradient(180deg, #f1ca2d, #f7a21e);
+    background-color: #f1ca2d;
   }
+  
   .how_much .wrapper section .block .block__main-title .main-title-text {
   line-height: 18.18px;
     padding-left: 9%;
@@ -2810,8 +2813,16 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .portfolio .wrapper {
     padding: 30px 10px 30px 10px;
   }
+  .how_much .wrapper section .block .block__footer-price {
+    margin-bottom: -4px;
+    margin-left: -13px;
+  }
+  .how_much .wrapper section .block .block__footer-price span {
+    font-size: 17px;
+  }
   .how_much .wrapper section .block .block__footer-price h2 {
-    font-size: 24px;
+    font-size: 20px;
+        margin-bottom: 0px;
   }
   button.yellow {
     font-size: 14px;
