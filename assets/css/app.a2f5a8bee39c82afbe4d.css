@@ -2767,6 +2767,11 @@ footer .wrapper .column.cont .hidden:last-of-type {
     padding-left: 11%;
     margin-bottom: -4px;
   }
+  .how_much .wrapper section .block .block__main-descr .block-disc li:before {
+    width: 2px;
+    height: 2px;
+    top: 13px;
+  }
    .how_much .wrapper section .block .block__main-descr .block-disc li:first-child {
          margin-top: 2px;
    }
