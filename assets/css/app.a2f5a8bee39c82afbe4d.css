@@ -1109,7 +1109,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
     display: block;
   }
 }
-@media (min-width: 912px) {
+@media (min-width: 913px) {
   .right {
   padding: 42px 0 42px 0;
 }
