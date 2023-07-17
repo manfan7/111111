@@ -1111,8 +1111,8 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 }
 @media (min-width: 913px) {
   .right {
-  padding: 42px 0 42px 0;
-}
+    padding: 42px 0 42px 0;
+  }
 }
 .term {
   background-color: #340738;
@@ -3591,6 +3591,10 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
 }
 @media (max-width: 320px) {
+  header .row:first-of-type a.logo {
+    flex-grow: 0;
+    margin-right: 15px;
+  }
   .header-swiper .swiper-wrapper .swiper-slide .dsc button.yellow {
     margin-left: 0;
   }
@@ -3615,8 +3619,8 @@ footer .wrapper .column.cont .hidden:last-of-type {
     left: -2rem;
   }
   .showMesasage {
-    margin-left: 0px;
-    margin-right: 7px;
+    margin-left: -2px;
+    margin-right: 13px;
   }
   .modal-wrapper {
     width: 260px;
@@ -3637,7 +3641,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 91%;
   }
   .header-swiper .swiper-wrapper .swiper-slide .dsc span.h1 {
-    font-size: calc(3vw + 2vh + 2vmin);
+    font-size: calc(3vw + 2vh + 3vmin);
   }
   .how_much .wrapper section .block button.howmuchyellow,
   .portfolio
@@ -3696,6 +3700,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   header .row:first-of-type img.burger {
     width: 34px;
+    margin-left: 10px;
   }
   header .row:first-of-type a.logo img {
     width: 133px;
@@ -3726,7 +3731,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     bottom: 1rem;
   }
   header {
-    height: 50px;
+    height: 58px;
   }
   .portfolio__header-wrapper {
     gap: 1%;
