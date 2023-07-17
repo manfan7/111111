@@ -2726,6 +2726,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .portfolio__footer {
     margin-left: 0px;
   }
+  .header-swiper .swiper-wrapper .swiper-slide .dsc {
+    margin-top: 30px;
+  }
   .how_much .wrapper section {
     margin-top: 20px;
   }
@@ -2764,6 +2767,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   button.yellow {
     font-size: 14px;
+    padding: 20px 35px
   }
   .slide__content-header h4 {
     font-size: 12px;
