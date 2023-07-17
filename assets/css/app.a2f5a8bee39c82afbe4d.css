@@ -1075,9 +1075,9 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 .item-right {
   flex: 1;
 }
-/*.right {
-  padding-top: 7.5%;
-}*/
+.right {
+  padding: 42px 0 42px 0;
+}
 .right .content-img {
   padding-left: 26px;
 }
