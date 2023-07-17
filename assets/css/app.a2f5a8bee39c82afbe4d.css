@@ -2708,6 +2708,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
     left: -62px;
   }
 }
+.pr {
+  display: none;
+}
 /*------tabletorientaion-----*/
 .footer-images {
   display: none;
@@ -2769,7 +2772,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   
   .how_much .wrapper section .block .block__main-title .main-title-text {
-  line-height: 18.18px;
+  line-height: 17.18px;
     padding-left: 9%;
   }
   .how_much .wrapper section .block .block__main-title {
@@ -2780,12 +2783,15 @@ footer .wrapper .column.cont .hidden:last-of-type {
      font-weight: 600;
      line-height: 18.18px;
     padding-left: 11%;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+  }
+  .how_much .wrapper section .block .block__main-descr .block-disc {
+    margin-top: 6px;
   }
   .how_much .wrapper section .block .block__main-descr .block-disc li:before {
     width: 2px;
     height: 2px;
-    top: 6px;
+    top: 9px;
   }
    .how_much .wrapper section .block .block__main-descr .block-disc li:first-child {
          margin-top: 6px;
@@ -2810,8 +2816,11 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .testimonials .wrapper {
     padding: 50px 9px 60px 9px;
   }
+  .how_much .wrapper {
+     padding: 50px 9px 21px 9px;
+  }
   .portfolio .wrapper {
-    padding: 30px 10px 30px 10px;
+    padding: 19px 10px 30px 10px;
   }
   .how_much .wrapper section .block .block__footer-price {
     margin-bottom: -4px;
@@ -2824,6 +2833,12 @@ footer .wrapper .column.cont .hidden:last-of-type {
     font-size: 20px;
         margin-bottom: 0px;
   }
+  .br {
+    display: none;
+  }
+  .pr {
+    display: inline-block;
+  }
   button.yellow {
     font-size: 14px;
     padding: 20px 35px
@@ -2832,14 +2847,17 @@ footer .wrapper .column.cont .hidden:last-of-type {
     font-size: 12px;
   }
   .portfolio__header {
-    min-height: 14vh;
+    min-height: 13vh;
   }
   .portfolio__header span {
     font-size: 20px;
     font-weight: 700;
   }
+  .swiper-button-prev, .swiper-button-next {
+        top: 38% !important;
+  }
   .portfolio__header h3 {
-    font-size: calc(1vh + 12vmin);
+   /* font-size: calc(1vh + 12vmin);*/
     font-weight: 700;
   }
   .swiper-button-prev {
@@ -3248,7 +3266,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
 }
 @media (max-width: 912px) {
   .portfolio__header-wrapper {
-    width: 95%;
+    width: 89%;
     gap: 1%;
     justify-content: space-between;
   }
