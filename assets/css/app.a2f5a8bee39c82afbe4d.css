@@ -2300,7 +2300,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
 
 @media (max-width: 990px) {
   header {
-    height: 69px;
+    height: 79px;
   }
   header .row:first-of-type:after {
     content: "";
@@ -2716,6 +2716,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .how_much .wrapper section .block p.type {
     font-size: 16px;
     margin: 5px 0;
+  }
+  header .row:first-of-type a.logo {
+    margin-left: 40px;
   }
   .clients .wrapper {
     padding-bottom: 0px;
