@@ -2749,9 +2749,11 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .how_much .wrapper section .block .block__header-price span {
     font-size: 12px;
+    margin-bottom: 10px;
   }
   .how_much .wrapper section .block .block__header-price {
     margin-left: -5px;
+    border-bottom: 1.5px solid #f3bc28;
   }
   .how_much .wrapper section .block .block__main-title .main-title-text {
   line-height: 18.18px;
