@@ -2715,7 +2715,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
 @media (max-width: 912px) {
   .how_much .wrapper section .block p.type {
     font-size: 16px;
-    margin: 5px 0;
+    margin: 1px 0;
   }
   header .row:first-of-type a.logo {
     margin-left: 40px;
@@ -2731,25 +2731,56 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .how_much .wrapper section {
     margin-top: 20px;
+    gap: 9px;
   }
   .how_much .wrapper section .block .block__header {
-    min-height: 168px;
-    margin-top: 10%;
+    min-height: 150px;
+    margin-top: 8%;
+  }
+  .how_much .wrapper section .block {
+  width: 48px;
   }
   .how_much .wrapper section .block .block__main-descr {
     margin-bottom: 6%;
+    padding-left: 1%;
   }
     .how_much .wrapper section .block .block__main-title .main-title-text {
     font-size: 14px;
   }
+  .how_much .wrapper section .block .block__header-price span {
+    font-size: 12px;
+  }
+  .how_much .wrapper section .block .block__header-price {
+    margin-left: -5px;
+  }
+  .how_much .wrapper section .block .block__main-title .main-title-text {
+  line-height: 18.18px;
+  }
+  .how_much .wrapper section .block .block__main-title {
+    width: 94%;
+  }
   .how_much .wrapper section .block .block__main-descr .block-disc li {
-    font-size: 14px;
+    font-size: 12px;
+     font-weight: 600;
+    font-size: 24px;
+    line-height: 29.18px;
+    padding-left: 11%;
+    margin-bottom: -4px;
+  }
+   .how_much .wrapper section .block .block__main-descr .block-disc li:first-child {
+         margin-top: 2px;
+   }
+  .how_much .wrapper section .block .block__header-icons ul img {
+    width: 34px;
+  }
+  .how_much .wrapper section .block .block__header-icons ul {
+    gap: 15px;
   }
   .how_much .wrapper section .block .block__header-price h2 {
     font-size: 36px;
   }
   .wrapper {
-    width: 99%;
+    width: 100%;
   }
   .header-swiper .swiper {
     padding-left: 1px;
@@ -2757,7 +2788,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .callback .wrapper,
   .how_much .wrapper,
   .testimonials .wrapper {
-    padding: 50px 10px 60px 10px;
+    padding: 50px 9px 60px 9px;
   }
   .portfolio .wrapper {
     padding: 30px 10px 30px 10px;
@@ -2816,7 +2847,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 50%;
   }
   .how_much .wrapper .header h3 {
-    font-size: calc(1vw + 0.8vh + 1vmin);
+    font-size: calc(1vw + 1.2vh + 1vmin);
   }
   .how_much .wrapper .header h2 {
     margin-bottom: 6px;
