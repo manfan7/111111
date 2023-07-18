@@ -3695,6 +3695,10 @@ footer .wrapper .column.cont .hidden:last-of-type {
     line-height: 33px;
     margin: 0;
   }
+  .iconslast {
+    width: 127%;
+    margin-left: -22px;
+  }
   .employees .wrapper section .block figure img {
     width: 70%;
   }
