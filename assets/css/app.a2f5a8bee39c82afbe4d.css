@@ -4220,6 +4220,21 @@ border-radius: 6px;
     margin-right: 1px;
     width: 94%;
   }
+  .clients {
+    margin-top: -24px;
+  }
+  .clients .wrapper h2 {
+    font-size: calc(1vw + 1vh + 6vmin);
+    font-weight: 600;
+    margin-left: 12px;
+}
+  .clients .wrapper div[class*="clients"] {
+    margin-top: -54px;
+    margin-bottom: -7px;
+}
+  .clients .wrapper div[class*="clients"] .arrows {
+    bottom: 3px;
+}
   .content-img,
   .right .content-img {
     margin: 21px 5px 17px 0;
