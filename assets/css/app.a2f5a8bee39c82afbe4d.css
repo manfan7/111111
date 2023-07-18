@@ -3713,6 +3713,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     background: linear-gradient(-90deg, #5c6bc0 16%, #5a1d45 190%);
     padding-bottom: 75px;
     position: relative;
+    overflow: hidden;
   }
   .certified::after {
     content: "";
@@ -3738,6 +3739,12 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .clients .wrapper div[class*="clients"] .arrows img {
     width: 93px;
+  }
+  .certified::after {
+    width: 115%;
+    height: 227px;
+    left: -27px;
+    bottom: -3px;
   }
   .certified h2 {
     display: flex;
@@ -4198,7 +4205,13 @@ border-radius: 6px;
     letter-spacing: -0.5px;
     line-height: 31.87px;
   }
-
+.certified::after {
+      width: 115%;
+    height: 238px;
+    left: -29px;
+    bottom: -3px;
+}
+  
   .right .content-img img {
     width: 80%;
   }
@@ -4243,6 +4256,10 @@ border-radius: 6px;
   .whyusmobile {
     padding-bottom: 8.5%;
   }
+  .certified .wrapper {
+  padding-top: 13.3%;
+  }
+  
   .tab-content .tab-content-content li {
     font-size: 14px;
     margin-bottom: 9px;
@@ -4259,7 +4276,7 @@ border-radius: 6px;
     width: 60%;
   }
   .employees .wrapper section .block {
-    height: 244px;
+    height: 240px;
   }
   .whyus__item-content--left .content-descr h4 {
     width: 89%;
