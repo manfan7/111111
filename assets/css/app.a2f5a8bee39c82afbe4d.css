@@ -4230,15 +4230,38 @@ border-radius: 6px;
 }
   .clients .wrapper div[class*="clients"] {
     margin-top: -54px;
-    margin-bottom: -7px;
+    margin-bottom: -12px;
 }
   .clients .wrapper div[class*="clients"] .arrows {
-    bottom: 3px;
+    bottom: 5px;
 }
   .content-img,
   .right .content-img {
     margin: 21px 5px 17px 0;
   }
+  .relheader h1 {
+    font-size: calc(2vw + 1.9vh + 3vmin);
+     line-height: 30.87px;
+  }
+  .toggleControl span {
+    /* width: 88%; */
+    font-size: 14px;
+    margin-left: -4px;
+    letter-spacing: 1px;
+    line-height: 25.87px;
+}
+  .activetoggle::after {
+     width: 32px;
+    height: 32px;
+    transform: scale(0.45);
+    right: -6px;
+    top: 3%;
+  }
+  .toggleControl::after {
+    right: -4px;
+    top: 34%;
+    transform: scale(0.5);
+}
   .tab-content .tab-content-header h3 {
     font-size: 16px;
     margin-bottom: 0px;
@@ -4273,6 +4296,9 @@ border-radius: 6px;
   }
   .certified .wrapper {
   padding-top: 13.3%;
+  }
+  .clients .wrapper .swiper-wrapper {
+    margin-top: 16px;
   }
   
   .tab-content .tab-content-content li {
