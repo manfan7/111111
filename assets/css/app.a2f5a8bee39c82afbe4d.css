@@ -2823,7 +2823,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
      padding: 50px 9px 21px 9px;
   }
   .portfolio .wrapper {
-    padding: 19px 10px 30px 10px;
+    padding: 26px 10px 30px 10px;
   }
   .how_much .wrapper section .block .block__footer-price {
     margin-bottom: -4px;
@@ -2862,6 +2862,8 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .portfolio__header h3 {
    /* font-size: calc(1vh + 12vmin);*/
     font-weight: 700;
+    font-size: calc(1vh + 7vmin);
+        margin-left: -11px;
   }
   .swiper-button-prev {
     left: -1px !important;
@@ -3269,7 +3271,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
 }
 @media (max-width: 912px) {
   .portfolio__header-wrapper {
-    width: 89%;
+    width: 95%;
     gap: 1%;
     justify-content: space-between;
   }
@@ -3281,10 +3283,20 @@ footer .wrapper .column.cont .hidden:last-of-type {
     top: 13px;
     position: relative;
   }
+   .portfolio__header-wrapper {
+    width: 99%;
+    gap: 1%;
+    justify-content: space-between;
+  }
 }
 @media (max-width: 768px) {
   .certified .wave {
     top: 2px;
+  }
+   .portfolio__header-wrapper {
+    width: 89%;
+    gap: 1%;
+    justify-content: space-between;
   }
   .header-swiper .swiper-wrapper .swiper-slide .img {
     width: 65%;
