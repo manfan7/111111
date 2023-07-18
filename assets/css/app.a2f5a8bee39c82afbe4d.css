@@ -4240,13 +4240,16 @@ border-radius: 6px;
     margin: 21px 5px 17px 0;
   }
   .relheader h1 {
-    font-size: calc(2vw + 1.9vh + 3vmin);
+    font-size: calc(2vw + 1.7vh + 3vmin);
      line-height: 30.87px;
   }
+  .toggleControl {
+    margin-left: -6px;
+  }
   .toggleControl span {
-    /* width: 88%; */
+     width: 100%; 
     font-size: 14px;
-    margin-left: -4px;
+    margin-bottom: 5px;
     letter-spacing: 1px;
     line-height: 25.87px;
 }
@@ -4258,10 +4261,26 @@ border-radius: 6px;
     top: 3%;
   }
   .toggleControl::after {
-    right: -4px;
-    top: 34%;
-    transform: scale(0.5);
+       right: -11px;
+    top: 6%;
+    transform: scale(0.4);
 }
+  .accordion-content {
+    margin-top: 4.4%;
+    margin-left: 4.6%;
+  }
+  .accordion-content-title {
+    width: 80%;
+  }
+  .accordion-content-title h3 {
+    font-size: 15px;
+    line-height: 18.8px;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+  .accordion-content-descr li {
+    margin-top: 0px;
+  }
   .tab-content .tab-content-header h3 {
     font-size: 16px;
     margin-bottom: 0px;
