@@ -4452,6 +4452,9 @@ border-radius: 6px;
   footer .wrapper .column.cont {
     margin-right: 0px;
 }
+  footer .wrapper .column.cont .y:first-child {
+    margin-bottom: 17px;
+  }
   .callback .wrapper form .agree label .checkmark {
     transform: scale(0.5);
         margin-right: 0px;
