@@ -4279,7 +4279,7 @@ border-radius: 6px;
     margin-top: 15px;
   }
   .accordion-content-descr {
-    margin-bottom: 16px;
+    margin-bottom: 3px;
   }
   .accordion-content-descr li {
     margin-top: 0px;
@@ -4295,6 +4295,9 @@ border-radius: 6px;
     opacity: 0.9;
     left: -12px;
     top: 8px;
+  }
+  .relcontent {
+   padding-bottom: 92px;
   }
   .tab-content .tab-content-content li {
     margin-left: 24px;
@@ -4415,6 +4418,37 @@ border-radius: 6px;
     padding: 0px 20px 0px 20px;
     margin-top: 0;
   }
+  .callback .wrapper {
+    padding: 17px 9px 36px 9px;
+  }
+  .callback .wrapper .cta {
+        margin-left: -6px;
+  }
+  .callback .wrapper .cta span.h3 {
+    font-size: calc(1vh + 1vw + 6vmin);
+}
+  .h3last {
+    margin-top: -14px !important;
+  }
+  .callback .wrapper .cta span.h2 {
+    font-size: calc(1vh + 1vw + 8.3vmin);
+}
+  .callback .wrapper form {
+    width: 105%;
+    margin-left: -10px !important;
+  }
+  .callback .wrapper form .agree label {
+    idth: 91%;
+    margin-bottom: 19px;
+  }
+  .callback .wrapper form .agree input[type="submit"] {
+    padding: 18px 32px;
+    font-size: 14px;
+}
+  .callback .wrapper form .agree label .checkmark {
+    transform: scale(0.5);
+        margin-right: 0px;
+     }
   .header-swiper .swiper-wrapper .swiper-slide .dsc h2 {
     font-size: 18px;
     line-height: 18.78px;
