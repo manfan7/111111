@@ -4242,6 +4242,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .employees .wrapper section {
     margin-top: 20px;
+    gap: 17px;
   }
   .employees .wrapper section .block figure img {
     width: 60%;
