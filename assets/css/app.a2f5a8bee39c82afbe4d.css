@@ -2848,6 +2848,11 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .slide__content-header h4 {
     font-size: 12px;
+     line-height: 18.18px;
+    text-align: start;
+  }
+  .portfolio .swiper .swiper-wrapper .swiper-slide:hover .slide__content {
+  margin-top: 39.3%;
   }
   .portfolio__header {
     min-height: 13vh;
@@ -2856,8 +2861,16 @@ footer .wrapper .column.cont .hidden:last-of-type {
     font-size: 20px;
     font-weight: 700;
   }
+  .portfolio-flex-colum {
+    margin-top: -10px;
+  }
   .swiper-button-prev, .swiper-button-next {
-        top: 38% !important;
+        top: 40.5% !important;
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .slide__content-btn {
+  padding-bottom: 9px;
   }
   .portfolio__header h3 {
    /* font-size: calc(1vh + 12vmin);*/
@@ -2866,10 +2879,16 @@ footer .wrapper .column.cont .hidden:last-of-type {
         margin-left: -11px;
   }
   .swiper-button-prev {
-    left: -1px !important;
+    left: -6px !important;
   }
   .swiper-button-next {
-    right: -1px !important;
+    right: -6px !important;
+  }
+  .portfolio .swiper .swiper-wrapper .swiper-slide {
+    height: 354px;
+  }
+  .testimonials .wrapper {
+     padding: 60px 9px 60px 9px;
   }
   .testimonials .wrapper > .dsc {
     width: 77%;
@@ -3042,9 +3061,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
 }
 @media (max-width: 820px) {
-  .portfolio__header-wrapper {
-    width: 95%;
-  }
+  
   footer .wrapper .column .wt {
     font-size: 14px;
   }
@@ -3271,7 +3288,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
 }
 @media (max-width: 912px) {
   .portfolio__header-wrapper {
-    width: 95%;
+    width: 73%;
     gap: 1%;
     justify-content: space-between;
   }
@@ -3284,7 +3301,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     position: relative;
   }
    .portfolio__header-wrapper {
-    width: 99%;
+    width: 78%;
     gap: 1%;
     justify-content: space-between;
   }
