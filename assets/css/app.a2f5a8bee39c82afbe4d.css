@@ -3676,6 +3676,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .employees .wrapper section .block {
     width: 99%;
+    height: auto;
   }
   .callback .wrapper {
     width: 95%;
