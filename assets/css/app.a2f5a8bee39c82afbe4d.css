@@ -4449,12 +4449,58 @@ border-radius: 6px;
   footer {
     padding-top: 1.3rem;
   }
+  footer .wrapper .column {
+        width: 112%;
+  }
   footer .wrapper .column.cont {
     margin-right: 0px;
 }
+  .f {
+    margin-top: 20px;
+    width: 100%;
+}
+  .three {
+    margin-bottom: 15px;
+  }
+  .two {
+    margin-bottom: 38px;
+  }
+  .fff {
+    margin-bottom: 9px;
+    margin-top: 10px;
+}
+  .four {
+    margin-top: 10px;
+    font-size: 14px!important;
+    margin-top: 12px!important;
+}
+  .five {
+    margin-bottom: -26px!important;
+    margin-top: 7px!important;
+}
+  footer .wrapper .circle {
+    margin-right: -12px;
+  }
+  .k8 {
+    margin-top: -9px;
+  }
+  .footer-images {
+        margin: 24px auto;
+    width: 56%;
+  }
+  .k11 {
+    margin-top: 10px;
+  }
   footer .wrapper .column.cont .y:first-child {
     margin-bottom: 17px;
   }
+  footer .wrapper .column.cont .hidden:last-of-type {
+    margin-top: 1px;
+}
+  footer .wrapper .y {
+    margin-top: 4px;
+  }
+  
   .callback .wrapper form .agree label .checkmark {
     transform: scale(0.5);
         margin-right: 0px;
