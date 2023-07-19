@@ -1183,7 +1183,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 }
 .employees .wrapper section .block figure img {
   margin-bottom: -5px;
-  width: 100%;
+  width: 60%;
 }
 .employees .wrapper section .block figure figcaption {
   color: #fff;
@@ -3334,7 +3334,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .header-swiper .swiper-wrapper .swiper-slide .dsc h2 {
     font-size: calc(1vh + 2.8vmin);
-}
+  }
   .cases section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3829,8 +3829,8 @@ footer .wrapper .column.cont .hidden:last-of-type {
     height: 11px;
   }
   footer .wrapper .column.cont {
-    margin-right: 0px; 
-}
+    margin-right: 0px;
+  }
   footer .wrapper .y {
     margin-top: 5px;
     align-items: center;
@@ -3850,12 +3850,12 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
 }
 @media (max-width: 469px) {
- header .row:first-of-type ul.c {
+  header .row:first-of-type ul.c {
     margin-right: 8px;
-}
+  }
   header .row:first-of-type a.logo {
     margin-left: 15px;
-}
+  }
 }
 @media (max-width: 500px) {
   .portfolio__header-wrapper {
@@ -3940,7 +3940,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .toggleControl::after {
     right: 12px;
     top: 36%;
-}
+  }
 }
 @media (max-width: 375px) {
   .how_much .wrapper section .block .block__header-icons ul {
@@ -4005,19 +4005,19 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   header .row:first-of-type .lang .w {
     width: 60%;
-}
+  }
   header .row:first-of-type .lang .w:after {
-    right: -8px;
-}
+    right: -20px;
+  }
   header .row:first-of-type a.logo {
     margin-left: -5px;
-}
+  }
   header .row:first-of-type a.logo img {
     width: 163px;
-}
+  }
   header .row:first-of-type ul.c {
     margin-right: 4px;
-}
+  }
 }
 @media (max-width: 320px) {
   header .row:first-of-type a.logo {
@@ -4097,9 +4097,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .how_much .wrapper section .block .block__header {
     margin-left: 0;
   }
-.certified .logos img {
-border-radius: 6px;
-}
+  .certified .logos img {
+    border-radius: 6px;
+  }
   .certified .logos img:first-child {
     width: 70%;
   }
@@ -4243,13 +4243,13 @@ border-radius: 6px;
     letter-spacing: -0.5px;
     line-height: 31.87px;
   }
-.certified::after {
-      width: 115%;
+  .certified::after {
+    width: 115%;
     height: 238px;
     left: -29px;
     bottom: -3px;
-}
-  
+  }
+
   .right .content-img img {
     width: 80%;
   }
@@ -4265,44 +4265,44 @@ border-radius: 6px;
     font-size: calc(1vw + 1vh + 6vmin);
     font-weight: 600;
     margin-left: 12px;
-}
+  }
   .clients .wrapper div[class*="clients"] {
     margin-top: -54px;
     margin-bottom: -12px;
-}
+  }
   .clients .wrapper div[class*="clients"] .arrows {
     bottom: 5px;
-}
+  }
   .content-img,
   .right .content-img {
     margin: 21px 5px 17px 0;
   }
   .relheader h1 {
     font-size: calc(2vw + 1.7vh + 3vmin);
-     line-height: 30.87px;
+    line-height: 30.87px;
   }
   .toggleControl {
     margin-left: -6px;
   }
   .toggleControl span {
-     width: 100%; 
+    width: 100%;
     font-size: 14px;
     margin-bottom: 5px;
     letter-spacing: 1px;
     line-height: 25.87px;
-}
+  }
   .activetoggle::after {
-     width: 32px;
+    width: 32px;
     height: 32px;
     transform: scale(0.45);
     right: -6px;
     top: 3%;
   }
   .toggleControl::after {
-          right: -3px;
+    right: -3px;
     top: 33%;
     transform: scale(0.6);
-}
+  }
   .accordion-content {
     margin-top: 4.4%;
     margin-left: 4.6%;
@@ -4328,14 +4328,14 @@ border-radius: 6px;
     margin-bottom: 0px;
   }
   .accordion-content-descr li:before {
-   width: 3px;
+    width: 3px;
     height: 3px;
     opacity: 0.9;
     left: -12px;
     top: 8px;
   }
   .relcontent {
-   padding-bottom: 92px;
+    padding-bottom: 92px;
   }
   .tab-content .tab-content-content li {
     margin-left: 24px;
@@ -4366,12 +4366,12 @@ border-radius: 6px;
     padding-bottom: 8.5%;
   }
   .certified .wrapper {
-  padding-top: 13.3%;
+    padding-top: 13.3%;
   }
   .clients .wrapper .swiper-wrapper {
     margin-top: 16px;
   }
-  
+
   .tab-content .tab-content-content li {
     font-size: 14px;
     margin-bottom: 9px;
@@ -4460,17 +4460,17 @@ border-radius: 6px;
     padding: 17px 9px 36px 9px;
   }
   .callback .wrapper .cta {
-        margin-left: -6px;
+    margin-left: -6px;
   }
   .callback .wrapper .cta span.h3 {
     font-size: calc(1vh + 1vw + 6vmin);
-}
+  }
   .h3last {
     margin-top: -14px !important;
   }
   .callback .wrapper .cta span.h2 {
     font-size: calc(1vh + 1vw + 8.3vmin);
-}
+  }
   .callback .wrapper form {
     width: 105%;
     margin-left: -10px !important;
@@ -4483,20 +4483,20 @@ border-radius: 6px;
   .callback .wrapper form .agree input[type="submit"] {
     padding: 18px 32px;
     font-size: 14px;
-}
+  }
   footer {
     padding-top: 1.3rem;
   }
   footer .wrapper .column {
-        width: 112%;
+    width: 112%;
   }
   footer .wrapper .column.cont {
     margin-right: 0px;
-}
+  }
   .f {
     margin-top: 20px;
     width: 100%;
-}
+  }
   .three {
     margin-bottom: 15px;
   }
@@ -4506,16 +4506,16 @@ border-radius: 6px;
   .fff {
     margin-bottom: 9px;
     margin-top: 10px;
-}
+  }
   .four {
     margin-top: 10px;
-    font-size: 14px!important;
-    margin-top: 12px!important;
-}
+    font-size: 14px !important;
+    margin-top: 12px !important;
+  }
   .five {
-    margin-bottom: -26px!important;
-    margin-top: 7px!important;
-}
+    margin-bottom: -26px !important;
+    margin-top: 7px !important;
+  }
   footer .wrapper .circle {
     margin-right: -12px;
   }
@@ -4523,7 +4523,7 @@ border-radius: 6px;
     margin-top: -9px;
   }
   .footer-images {
-        margin: 24px auto;
+    margin: 24px auto;
     width: 56%;
   }
   .k11 {
@@ -4534,15 +4534,15 @@ border-radius: 6px;
   }
   footer .wrapper .column.cont .hidden:last-of-type {
     margin-top: 1px;
-}
+  }
   footer .wrapper .y {
     margin-top: 4px;
   }
-  
+
   .callback .wrapper form .agree label .checkmark {
     transform: scale(0.5);
-        margin-right: 0px;
-     }
+    margin-right: 0px;
+  }
   .header-swiper .swiper-wrapper .swiper-slide .dsc h2 {
     font-size: 18px;
     line-height: 18.78px;
@@ -4575,9 +4575,7 @@ border-radius: 6px;
 .portfolio-flex-colum {
   margin-top: -21px;
 }
-.portfolio .swiper .swiper-wrapper .swiper-slide {
-  height: 463px;
-}
+
 .swiper-button-prev,
 .swiper-button-next {
   top: 42% !important;
