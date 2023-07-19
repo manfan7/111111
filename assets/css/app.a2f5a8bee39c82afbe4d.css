@@ -4003,6 +4003,21 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .whyusmobile .wrapper .header .header-border {
     width: 86%;
   }
+  header .row:first-of-type .lang .w {
+    width: 60%;
+}
+  header .row:first-of-type .lang .w:after {
+    right: -8px;
+}
+  header .row:first-of-type a.logo {
+    margin-left: -5px;
+}
+  header .row:first-of-type a.logo img {
+    width: 163px;
+}
+  header .row:first-of-type ul.c {
+    margin-right: 4px;
+}
 }
 @media (max-width: 320px) {
   header .row:first-of-type a.logo {
