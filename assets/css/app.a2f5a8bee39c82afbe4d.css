@@ -2724,6 +2724,11 @@ footer .wrapper .column.cont .hidden:last-of-type {
     left: -62px;
   }
 }
+@media (max-width: 1014px) {
+  .callback::before {
+    left: 44%;
+  }
+}
 .pr {
   display: none;
 }
@@ -3581,7 +3586,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     flex-direction: column;*/
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 620px) {
   .more dl dt {
     font-size: 20px;
   }
@@ -3697,7 +3702,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
 }
 
 /*-------mobile--------------*/
-@media (max-width: 540px) {
+@media (max-width: 620px) {
   .testimonials .wrapper .arrows {
     top: 7.3rem;
     right: 0.3rem;
