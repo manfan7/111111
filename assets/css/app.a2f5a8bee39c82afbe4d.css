@@ -3686,6 +3686,16 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-bottom: 5px;
   }
 }
+@media (max-width: 1280px) {
+  .wave1 {
+    display: none !important;
+  }
+
+  .certified .wave {
+    display: block;
+  }
+}
+
 /*-------mobile--------------*/
 @media (max-width: 540px) {
   .testimonials .wrapper .arrows {
@@ -3761,7 +3771,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
     font-size: calc(2vw + 1.8vh + 1vmin);
     letter-spacing: 2px;
   }
-
+  .certified .wave {
+    display: none;
+  }
   .whyus__item-content--left .content-descr h4 {
     font-size: 16px;
     margin-bottom: 0px;
@@ -3817,7 +3829,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .modal-wrapper form .agree label {
     width: 67%;
   }
-  . .certified {
+  .certified {
     background: linear-gradient(-90deg, #5c6bc0 16%, #5a1d45 190%);
     padding-bottom: 73px;
     position: relative;
@@ -4727,13 +4739,4 @@ footer .wrapper .column.cont .hidden:last-of-type {
 }
 .l {
   margin-left: 10px;
-}
-@media (max-width: 1280px) {
-  .wave1 {
-    display: none !important;
-  }
-
-  .certified .wave {
-    display: block;
-  }
 }
