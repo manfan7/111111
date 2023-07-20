@@ -288,7 +288,7 @@
             },
 
             spaceBetween: 30,
-            loop: true,
+
             navigation: {
               nextEl: ".clients_next".concat(n),
               prevEl: ".clients_prev".concat(n),

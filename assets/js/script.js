@@ -121,6 +121,7 @@ const closebtn = document.querySelectorAll(".closebtn");
 let modal = document.querySelector(".modal-backdrop");
 let modal1 = document.querySelector(".modal-backdrop1");
 let form = document.querySelector(".helpme");
+let form1 = document.querySelector(".helpme1");
 let thanksForm = document.querySelector(".thanks");
 let req = document.querySelectorAll("._req");
 
@@ -160,6 +161,8 @@ modal1.addEventListener("click", (event) => {
   }
 });
 form.addEventListener("submit", formsend);
+form1.addEventListener("submit", formsend);
+
 async function formsend(e) {
   e.preventDefault();
 
@@ -167,6 +170,7 @@ async function formsend(e) {
   //let formData = new FormData(form);
   if (error === 0) {
     modal.classList.add("hide");
+    modal1.classList.add("hide");
     setTimeout(() => {
       thanksForm.classList.add("animated");
     }, 200);
