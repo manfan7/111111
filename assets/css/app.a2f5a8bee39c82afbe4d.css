@@ -406,8 +406,13 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   color: #f3bc28;
 }
 .dsc__h1-class {
-  margin-top: -57px;
+ 
   margin-bottom: 7px;
+}
+@media (min-width: 1724px) {
+  .dsc__h1-class {
+     margin-top: -57px;
+  }
 }
 .dsc__button-class {
   padding-top: 33px;
@@ -3737,7 +3742,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     bottom: -1rem;
   }
   .header-swiper .swiper-wrapper .swiper-slide .dsc span.h1 {
-    font-size: 44px;
+    font-size: 37px;
   }
   .header-swiper .swiper-wrapper .swiper-slide .dsc h2 {
     font-size: 26px;
@@ -4299,7 +4304,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     top: 6px;
   }
   .header-swiper .swiper-wrapper .swiper-slide .dsc span.h1 {
-    font-size: calc(3vw + 2vh + 3vmin);
+    font-size: calc(3vw + 1vh + 3vmin)
   }
   .how_much .wrapper section .block button.howmuchyellow,
   .portfolio
@@ -4728,7 +4733,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-right: 0px;
   }
   .header-swiper .swiper-wrapper .swiper-slide .dsc h2 {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 18.78px;
     color: #f1ca2d;
   }
