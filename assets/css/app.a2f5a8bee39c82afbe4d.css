@@ -4443,7 +4443,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .toggleControl::after {
     right: -3px;
-    top: 22%;
+    top: 27%;
     transform: scale(0.45);
   }
   .accordion-content {
@@ -4604,7 +4604,8 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-top: 0;
   }
   .callback .wrapper {
-    padding: 17px 9px 36px 9px;
+    padding: 17px 0px 36px 9px;
+    width: 96%;
   }
   .callback .wrapper .cta {
     margin-left: -6px;
@@ -4620,7 +4621,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .callback .wrapper form {
     width: 105%;
-    margin-left: -10px !important;
+    margin-left: -6px !important;
     margin-top: -10px;
   }
   .callback .wrapper form .agree label {
@@ -4654,7 +4655,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-bottom: 15px;
   }
   .two {
-    margin-bottom: 38px;
+    margin-bottom: 14px;
   }
   .fff {
     margin-bottom: 9px;
@@ -4672,6 +4673,12 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   footer .wrapper .circle {
     margin-right: -12px;
+  }
+  .unp:first-child {
+    margin-top: -7px;
+  }
+  .k1 {
+    margin-bottom: 17px!important;
   }
   .k8 {
     margin-top: -9px;
@@ -4700,7 +4707,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-top: 4px;
     font-size: 14px;
   }
-
+.fg{
+  margin-bottom: -4px;
+}
   .callback .wrapper form .agree label .checkmark {
     transform: scale(0.5);
     margin-right: 0px;
@@ -4740,9 +4749,10 @@ footer .wrapper .column.cont .hidden:last-of-type {
     opacity: 0.8;
   }
   .k6 {
-    margin-top: 12px !important;
+    margin-top: 11px !important;
     font-weight: 700 !important;
     font-size: 15px !important;
+    margin-bottom: 0px !important;
   }
 }
 .portfolio-flex-colum {
