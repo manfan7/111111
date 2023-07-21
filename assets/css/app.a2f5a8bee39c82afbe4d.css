@@ -2728,6 +2728,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .callback::before {
     left: 44%;
   }
+  .callback .wrapper form {
+    max-width: 53%;
+  }
 }
 .pr {
   display: none;
@@ -3148,6 +3151,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-right: 2.3rem;
     margin-left: 0px;
     margin-top: 19px;
+    max-width: 43%;
   }
   .callback .wrapper form .agree label .checkmark + span {
     font-size: 10px;
@@ -3386,6 +3390,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-right: 2.3rem;
     margin-left: -4px;
     margin-top: 19px;
+    max-width: 42%;
   }
   .employees .wrapper section {
     gap: 31px;
@@ -3836,7 +3841,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .certified {
     background: linear-gradient(-90deg, #5c6bc0 16%, #5a1d45 190%);
-    padding-bottom: 73px;
+    padding-bottom: 75px;
     position: relative;
     overflow: hidden;
   }
