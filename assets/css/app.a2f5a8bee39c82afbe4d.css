@@ -3527,26 +3527,14 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 40%;
     gap: 20px;
   }
-  .callback .wrapper,
+  
   .certified .logos {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
   }
-  .callback::after {
-    display: none;
-  }
-  .callback .wrapper p.like,
-  .callback .wrapper p.like + span {
-    display: none;
-  }
-  .callback .wrapper form {
-    margin-left: 0 !important;
-  }
-  .callback .wrapper .cta {
-    width: 100%;
-  }
+  
   #masonry .block figcaption {
     font-size: 8px;
   }
@@ -3810,6 +3798,25 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 99%;
     height: auto;
   }
+    .callback .wrapper  {
+     -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .callback::after {
+    display: none;
+  }
+  .callback .wrapper p.like,
+  .callback .wrapper p.like + span {
+    display: none;
+  }
+  .callback .wrapper form {
+    margin-left: 0 !important;
+  }
+  .callback .wrapper .cta {
+    width: 100%;
+  }
   .callback .wrapper {
     width: 95%;
   }
@@ -3971,6 +3978,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   footer .wrapper .column {
     width: 88%;
+  }
+  .callback .wrapper form {
+    
   }
 }
 @media (max-width: 469px) {
