@@ -3206,8 +3206,8 @@ footer .wrapper .column.cont .hidden:last-of-type {
   }
   .callback .wrapper form .agree input[type="submit"] {
     padding: 20px 33px;
-    font-size: 16px;
-    
+    font-size: 15px;
+     font-weight: 600;   
   }
   .callback .wrapper form > label span {
     margin-bottom: 3px;
@@ -4303,7 +4303,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-left: 21px;
   }
   .how_much .wrapper section .block .block__footer-price {
-    gap: 0px;
+    gap: 7px;
   }
   .how_much .wrapper section .block .block__main-descr .block-disc li:before {
     left: 21px;
@@ -4334,7 +4334,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     padding: 16px 27px;
   }
   .how_much .wrapper section .block .block__footer-price span {
-    font-size: 19px;
+    font-size: 17px;
   }
   .how_much .wrapper section .block .block__footer {
     padding-bottom: 7px;
@@ -4348,7 +4348,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-top: 14px !important;
   }
   .how_much .wrapper section .block .block__footer-price h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
   .portfolio {
     padding-bottom: 0vh;
