@@ -2718,6 +2718,11 @@ footer .wrapper .column.cont .hidden:last-of-type {
     left: 40%;
   }
 }
+@media (max-width: 1055px) {
+ header .row:first-of-type ul.c, header .row:first-of-type ul.c li {
+   font-size: 18px;
+ }
+}
 @media (max-width: 1024px) {
   .header-swiper .swiper-wrapper .swiper-slide .img {
     left: 4px;
