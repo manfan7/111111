@@ -406,7 +406,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   color: #f3bc28;
 }
 .dsc__h1-class {
-  padding-top: 59px;
+  margin-top: -57px;
   margin-bottom: 7px;
 }
 .dsc__button-class {
@@ -544,7 +544,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   opacity: 0.7;
 }
 .testimonials .wrapper .test-swiper {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 .testimonials .wrapper .test-swiper .swiper-slide {
   width: 426px;
@@ -842,7 +842,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 30vh;
+  min-height: 23vh;
 }
 .portfolio__header-wrapper {
   display: flex;
@@ -1374,8 +1374,8 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 }
 .clients .wrapper div[class*="clients"] {
   position: relative;
-  margin-top: 3.2rem;
-  margin-bottom: 16px;
+  margin-top: 2.2rem;
+  margin-bottom: 17px;
 }
 .clients .wrapper div[class*="clients2"] {
   margin-top: 75px;
@@ -2864,6 +2864,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
   .how_much .wrapper section .block .block__footer-price {
     margin-bottom: -4px;
     margin-left: -13px;
+    gap: 5px;
   }
   .how_much .wrapper section .block .block__footer-price span {
     font-size: 17px;
@@ -3199,7 +3200,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
     opacity: 1;
   }
   .callback .wrapper form .agree input[type="submit"] {
-    padding: 20px 24px;
+    padding: 20px 33px;
+    font-size: 16px;
+    
   }
   .callback .wrapper form > label span {
     margin-bottom: 3px;
