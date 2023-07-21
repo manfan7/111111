@@ -239,8 +239,7 @@
 
           new Swiper(e, {
             slidesPerView: n,
-            loop: true,
-            spaceBetween: 30,
+             spaceBetween: 30,
 
             navigation: {
               nextEl: ".swiper-button-next",
