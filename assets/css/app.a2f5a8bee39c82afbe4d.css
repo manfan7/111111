@@ -3980,7 +3980,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     width: 88%;
   }
   .callback .wrapper form {
-    
+    max-width: 97%;
   }
 }
 @media (max-width: 469px) {
