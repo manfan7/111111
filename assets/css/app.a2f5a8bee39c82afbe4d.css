@@ -2457,6 +2457,11 @@ footer .wrapper .column.cont .hidden:last-of-type {
     padding: 100px 20px;
   }
 }
+@media (max-width: 1277px) {
+  .header-swiper .swiper-wrapper .swiper-slide .img img {
+ left: -116px;
+  }
+}
 @media (max-width: 1201px) {
   .header-swiper .swiper-wrapper .swiper-slide .img {
     width: 100%;
@@ -2468,13 +2473,13 @@ footer .wrapper .column.cont .hidden:last-of-type {
     position: relative;
     top: 4px;
   }
-  #masonry .block figure:after {
+ /* #masonry .block figure:after {
     width: 80%;
   }
   #masonry .block figcaption {
     font-size: 10px;
     top: 25%;
-  }
+  }*/
   .header-swiper .swiper-wrapper .swiper-slide .img .role {
     left: -26px;
     bottom: 1.6rem;
