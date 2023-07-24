@@ -3903,6 +3903,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
     left: -27px;
     bottom: -3px;
   }
+  .testimonials .wrapper > .dsc {
+    margin-top: -70px;
+  }
   .certified h2 {
     display: flex;
     flex-direction: column;
@@ -4074,6 +4077,9 @@ footer .wrapper .column.cont .hidden:last-of-type {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .testimonials .wrapper > .dsc {
+  margin-top: -3px;
   }
   .oo {
     color: white !important;
