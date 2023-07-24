@@ -1179,7 +1179,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
   text-align: center;
   letter-spacing: -2px;
   font-weight: 700;
-  width: 66%;
+  width: 67%;
   margin: 0 auto;
 }
 .employees .wrapper section {
@@ -1436,7 +1436,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
     display: flex;
   }
   .clients .wrapper div[class*="clients"] {
-    margin-top: -54px;
+    margin-top: -24px;
     margin-bottom: 5px;
   }
   .clients .wrapper div[class*="clients"] .arrows img {
@@ -4624,7 +4624,7 @@ footer .wrapper .column.cont .hidden:last-of-type {
     margin-top: -3px;
   }
   .header-swiper .swiper-wrapper .swiper-slide .dsc {
-    padding: 0px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
     margin-top: 0;
   }
   .callback .wrapper {
