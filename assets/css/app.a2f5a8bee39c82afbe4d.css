@@ -124,6 +124,7 @@ header .row {
 }
 .showMesasage {
   margin-left: 10px;
+      align-items: center;
 }
 header .row:first-of-type {
   position: relative;
@@ -1103,7 +1104,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
     min-height: 430px;
   }
   .right {
-    padding: 22px 0 22px 0;
+    /*padding: 22px 0 22px 0;*/
   }
 }
 /*-------whyus mobile------*/
@@ -1132,7 +1133,7 @@ header .row:nth-of-type(2) ul.nav > li.parent .dd {
 }
 @media (min-width: 913px) {
   .right {
-    padding: 42px 0 42px 0;
+   /* padding: 42px 0 42px 0;*/
   }
 }
 .term {
